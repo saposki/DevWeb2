@@ -1,0 +1,495 @@
+/*-----------------------------------------*/
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1800px) {
+    #bt-menu {
+        visibility: hidden;
+    }
+}
+
+
+/*---------------------------------------------------------------*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1279px) {
+    #bt-menu {
+        visibility: hidden;
+    }
+}
+
+
+/*----------------------------------------------------------------*/
+/*Medium screens*/
+@media only screen and (max-width : 992px){
+
+    /*-----------side -menu--------*/
+
+    .menu, .home-content {
+        position: relative;
+    }
+
+    .menu {
+        width: 100px !important;
+        height: 100vh;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .home-content {
+    width: calc(100% - 100px) !important;
+    }
+
+    .flex {
+        width: 50px;
+
+    }
+
+    .flex div{
+        width: 50px;
+        height: 80px;
+    }
+
+    .flex div p {
+        font-family: Raleway-SemiBold;
+        font-size: .8rem;
+    }
+
+    .flex  div:hover, .flex  div p:hover {
+        color: #fff
+    }
+
+    /*-----------the content--------*/
+   .home-descr {
+    height: 500px;
+    width: 700px !important;
+    top: 150px;
+
+/*    center-h*/
+    position: absolute;
+    left: 47%;
+    transform: translate(-50%, 0%);
+
+    }
+
+    .header-bar{
+      width: 100%;
+      margin-bottom: 100px;
+    }
+
+    .logo-big {
+        height: 60px;
+        width: 100px;
+
+    }
+    .moringa-title {
+        margin-top: 50px;
+
+    }
+
+    .moringa-title span {
+        font-family: Metropolis;
+        font-size: 5.3rem;
+    }
+
+    .slogan{
+        font-family: Raleway-Regular;
+        padding: 10px;
+        margin: 50px 0 60px 0;
+    }
+
+    .slogan span {
+        font-size: 1.1rem;
+        width: 500px;
+        height: auto;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+    #btn-click {
+        padding: 20px 0 20px 0;
+
+    }
+
+    .more-btn {
+        padding: 15px 40px 15px 40px;
+        font-size: 1.3rem;
+        letter-spacing: 0px;
+        color: aliceblue;
+    }
+
+    .more-btn:hover{
+        background-color:rgba(255,255,255, 0.5);
+        box-shadow: 0 0 3px #398583;
+        text-shadow: 0 0 2px #fff;
+        color: teal;
+        border: 3px solid #398583;
+    }
+
+    .btntour{
+      width: 25%;
+      border:1px solid white;
+      height: auto;
+      cursor: pointer;
+
+    }
+    .btntour:hover{
+      color: #8DC89C;
+      border: 2px solid #8DC79E;
+    }
+}
+
+
+/*----------------------------------------------------------------*/
+ /*Small screens*/
+@media screen and (max-width: 769px) {
+
+    .home-content {
+        width: 95% !important;
+    }
+
+    .home-descr {
+    height: 700px;
+    width: 700px !important;
+    top: 90px;
+
+/*    top: 50%;*/
+    left: 49%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    }
+
+    .h-nav, .m-logo, .moringa-title, .slogan, #btn-click{
+        position: relative;
+    }
+     /*-----------side -menu--------*/
+
+    .menu {
+        width: 0px !important;
+        height: 100vh;
+        text-align: center;
+        margin: 0 auto;
+        visibility: hidden;
+    }
+
+    .v-menu {
+        visibility: hidden;
+    }
+
+
+    /*-----------horizontal-menu--------*/
+    .h-nav {
+        height: 70px;
+        width: 480px !important;
+        visibility: visible;
+        top: 0;
+    }
+
+    .h-flex {
+        width: 100%;
+        height: 70px;
+    /*    padding-top: 10px;*/
+
+    }
+
+    .h-flex div{
+        width: 70px;
+        height: 80px;
+        color: #fff;
+        text-align: center;
+        padding-top: 25%;
+    }
+
+
+    .h-flex div p {
+        font-family: Raleway-SemiBold;
+        font-size: .8rem;
+    /*    font-weight: bold;*/
+    }
+
+    .menu-icon-h img {
+        width: 0px;
+        visibility: hidden;
+
+    }
+
+    .h-nav .menu-item {
+        visibility: visible;
+    }
+
+    /*-----------content--------*/
+    .m-logo {
+        margin-top: 30px;
+
+    }
+
+    .logo-big {
+    height: 60px;
+    width: 100px;
+    }
+
+    .moringa-title {
+        margin-top: 50px;
+
+    }
+
+    .moringa-title span {
+        font-family: Metropolis;
+        font-size: 5.5rem;
+    }
+
+    .slogan{
+        font-family: Raleway-Regular;
+        padding: 10px;
+        margin: 50px 0 60px 0;
+    }
+
+    .slogan span {
+        font-size: 1.1rem;
+        width: 500px;
+        height: auto;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    #btn-click {
+        padding: 20px 0 20px 0;
+
+    }
+
+    .more-btn {
+        padding: 15px 40px 15px 40px;
+        font-size: 1.3rem;
+        letter-spacing: 0px;
+        color: aliceblue;
+        border: 2px solid #fff;
+    }
+
+    .more-btn:hover{
+        background-color:rgba(255,255,255, 0.5);
+        box-shadow: 0 0 3px #398583;
+        text-shadow: 0 0 2px #fff;
+        color: teal;
+        border: 3px solid #398583;
+    }
+}
+
+/*----------------------------------------------------------------*/
+/* Extra Small Devices */
+@media screen and (max-width: 632px) {
+
+    /*-----------content--------*/
+    .m-logo {
+        margin-top: 30px;
+
+    }
+
+    .logo-big {
+        height: 60px;
+        width: 100px;
+    }
+
+    .moringa-title {
+        margin-top: 50px;
+        width: 100%;
+        font-size: 1rem;
+
+    }
+
+    .moringa-title span {
+        font-family: Metropolis;
+        font-size: 4.5rem;
+    }
+
+    .slogan{
+        font-family: Raleway-Regular;
+        padding: 10px;
+        margin: 50px 0 60px 0;
+    }
+
+    .slogan span {
+        font-size: 1.1rem;
+        width: 460px;
+        height: auto;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    #btn-click {
+        padding: 20px 0 20px 0;
+
+    }
+
+    .more-btn {
+        padding: 15px 40px 15px 40px;
+        font-size: 1rem;
+        letter-spacing: 0px;
+        color: aliceblue;
+        border: 2px solid #fff;
+    }
+
+    .more-btn:hover{
+        background-color:rgba(255,255,255, 0.5);
+        box-shadow: 0 0 3px #398583;
+        text-shadow: 0 0 2px #fff;
+        color: teal;
+        border: 3px solid #398583;
+    }
+
+    /*-----------horizontal-menu--------*/
+    .h-nav {
+        height: 70px;
+        width: 480px !important;
+        visibility: visible;
+        top: 0;
+    }
+
+    .h-flex {
+        width: 100%;
+        height: 70px;
+    /*    padding-top: 10px;*/
+
+    }
+
+    .h-flex div{
+        width: 60px;
+        height: 70px;
+        color: #fff;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+    .h-flex div img {
+        width: 25px;
+    }
+    .h-flex div p {
+        font-family: Raleway-SemiBold;
+        font-size: .75rem;
+    /*    font-weight: bold;*/
+    }
+
+}
+
+/*----------------------------------------------------------------*/
+/* Phones */
+@media only screen and (max-width : 480px) {
+
+    .menu {
+        width: 0px !important;
+        height: 100vh;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .h-nav, .h-flex .menu-item {
+        height: 0px;
+        visibility: hidden !important;
+    }
+
+    .flex{
+        top: 0;
+    }
+
+    #hamburger {
+        visibility: visible;
+        height: 100%;
+        margin: -20px 20px;
+
+    }
+
+
+
+
+    /*-----------the content--------*/
+    .home-content {
+        width: 100% !important;
+        height: 100vh;
+        min-height: 100%;
+        position: absolute;
+    }
+
+    .home-descr {
+        height: 330px;
+        width: 100%;
+        position: absolute;
+
+        /*center-h*/
+/*
+        left: 50%;
+        transform: translate(-50%, 0%);
+        top: 30px;
+*/
+        /*center-c*/
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .m-logo {
+
+    }
+
+
+    .logo-big {
+        height: 40px;
+        width: 60px;
+    }
+
+    .moringa-title {
+        margin-top: 10px;
+    }
+
+    .moringa-title span {
+        width: 100%;
+        height: auto;
+        font-family: Metropolis;
+        font-size: 2.5rem;
+        text-align: center;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+
+    .slogan {
+        margin: 30px 0 40px 0;
+    }
+
+    .slogan span {
+        font-size: .8rem;
+        width: 300px;
+        height: auto;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    #btn-click {
+        padding: 10px 0 20px 0;
+
+    }
+
+    .more-btn {
+        padding: 12px 30px 12px 30px;
+        font-size: .8rem;
+        letter-spacing: 0px;
+        color: aliceblue;
+        border: 1px solid #fff;
+    }
+
+    .more-btn:hover{
+        background-color:rgba(255,255,255, 0.5);
+        box-shadow: 0 0 3px #398583;
+        text-shadow: 0 0 2px #fff;
+        color: teal;
+        border: 1px solid #398583;
+    }
+
+    .btntour{
+      width: 25%;
+      border:1px solid white;
+      height: auto;
+      cursor: pointer;
+
+    }
+    .btntour:hover{
+      color: #8DC89C;
+      border: 2px solid #8DC79E;
+    }
+
+}

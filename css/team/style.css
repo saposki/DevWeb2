@@ -1,0 +1,463 @@
+@import url('normalize.css');
+
+@font-face {
+    font-family: BIGJOHN;
+    src: url(../font/BIGJOHN.otf);
+}
+@font-face {
+    font-family: Metropolis;
+    src: url(../font/Metropolis.otf);
+}
+@font-face {
+    font-family: SlimJoe;
+    src: url(../font/SlimJoe.otf);
+}
+
+@font-face {
+    font-family: Anders;
+    src: url(../font/Anders.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(../font/raleway/Raleway-Regular.otf);
+}
+
+@font-face {
+    font-family: Ribbon;
+    src: url(../font/Ribbon.otf);
+}
+
+/*--------------------------------------------------------------------*/
+
+
+
+
+html, body {
+    height: 100%;
+    min-height: 750px;
+    width: 100%;
+/*    background: url(../img/bg.svg) #000 no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    color: #555;
+    background-size: cover;
+    font-family: Raleway-Regular;
+
+    overflow-y:scroll;
+
+}
+
+/*Colors*/
+.chencha {
+    color: teal !important;
+}
+.wanjugu {color: #F0414C !important;}
+.kirwa{color: #e2e43a !important;}
+.ben { color: #E87A4A !important;}
+
+/*-------------------------------------------------*/
+
+.cover {
+    background: url(../img/pattern_stripe.png) #000;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+#all {
+    height: 100vh;
+/*    min-width: 1450px;*/
+    min-height: 750px;
+    position: relative;
+}
+
+/*--------------Menu------------------*/
+/*Team*/
+#bt-menu {
+        visibility: hidden;
+    }
+
+.menu, .contents {
+    position: relative;
+    height: 100vh !important;
+    z-index: 100;
+}
+
+.menu {
+    width: 100%;
+}
+
+.v-nav {
+    height: 100vh;
+    width: 150px !important;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contents{
+    width: calc(90% - 150px) !important;
+    height: 100vh;
+    left: 0 !important;
+    font-size: 1rem !important;
+
+}
+
+.strapline {
+
+}
+
+.flex {
+    width: 60px;
+    height: 410px;
+    top: 40px;
+    z-index: 999;
+}
+
+.flex div{
+    width: 60px;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    padding-top: 35%;
+}
+
+#hamburger {
+    visibility: hidden;
+    height: 0px;
+}
+
+.flex div p {
+    font-family: Raleway-SemiBold;
+    font-size: .8rem;
+/*    font-weight: bold;*/
+}
+
+.flex div:hover, .flex div p:hover {
+    color: #fff;
+
+}
+
+.flex div:hover, .h-flex div:hover{
+/*    background-color:rgba(192,192,192,0.6);*/
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+/*----------------------------*/
+
+.ps-container {
+	position: absolute;
+	width: 90%;
+	height: 100vh;
+    min-height: 750px;
+    top: 0;
+    padding: 0 0px 0 0;
+
+/*    center-h*/
+    left: 40%;
+    transform: translate(-40%, 0%);
+    position: absolute;
+}
+
+
+.ps-container > div {
+	position: absolute;
+	width: 50%;
+}
+
+.ps-container > div > div,
+.ps-slidewrapper > nav,
+.ps-slides > div {
+	position: absolute;
+}
+
+
+/*--------------Header------------------*/
+.ps-header {
+	left: 0px;
+    top: 20px;
+    width: 100% !important;
+	height: 100px;
+	z-index: 999;
+    text-align: center;
+}
+
+.ps-header h1 {
+/*
+    text-transform: uppercase;
+	color: #ccc;
+	line-height: 100px;
+	margin: 0;
+	padding: 0 50px;
+	font-weight: 200;
+	font-size: 14px;
+	letter-spacing: 10px;
+*/
+
+    font-family: SlimJoe;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 0px;
+    color: #ccc;
+    z-index: 999;
+
+}
+
+.ps-contentwrapper {
+	top: 100px;
+	bottom: 0px;
+/*	overflow: hidden;*/
+	z-index: 500;
+}
+
+.ps-content {
+	background: url(../img/pattern_stripe.png) #000;
+	width: 100%;
+	height: auto;
+	padding: 30px 50px 50px 10px;
+    color:darkgrey;
+}
+
+.ps-content h2 {
+	padding: 10px 15px;
+	border-right: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	letter-spacing: 1px;
+	margin: 30px 0 10px;
+	text-align: right;
+    text-transform: uppercase;
+	font-weight: 700;
+    font-size: 1.2rem;
+    color: aliceblue
+}
+
+.ps-descr {
+    height: 350px;
+    margin-top: 60px;
+    padding: 10px;
+    border-left: 1px solid #f2f2f2;
+	border-top: 1px solid #f2f2f2;
+}
+
+.ps-content {
+/*    z-index: 499 !important;*/
+}
+
+.ps-content p {
+	line-height: 26px;
+	font-size: 12px;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	padding: 10px 15px;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.ps-content a:last-child {
+	font-size: 14px;
+	font-weight: 700;
+	color: #555;
+	letter-spacing: 4px;
+	float: right;
+	border: 3px solid #555;
+	padding: 3px;
+	text-indent: 4px;
+}
+
+.ps-price {
+	float: left;
+	margin: 20px 10px 10px 10px;
+    padding: 10px;
+	width: 140px;
+	height: 140px;
+	line-height: 140px;
+	text-align: center;
+	color: #fff;
+	font-size: 55px;
+	font-weight: 200;
+    font-family: Metropolis;
+}
+
+.p-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: double;
+    font-size: 1rem;
+    letter-spacing: -.2px;
+    margin: 0 0 10px 5px;
+}
+
+.p-descr {
+    font-family: Raleway-Regular;
+    font-size: 1rem;
+    letter-spacing: -.2px;
+    word-spacing: .2rem;
+    margin: 20px 0 0 0;
+    height: 100%;
+    color: #C4C4C4;
+}
+
+
+.used-text{
+    font-family: Metropolis;
+    padding: 0px 5px 0 0;}
+
+.no-touch .ps-content a:last-child:hover {
+	color: #b2d79d;
+	border-color: #b2d79d;
+}
+
+.ps-content a:last-child:before {
+	content: "\e030";
+	font-family: 'socicon';
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	padding-right: 5px;
+}
+
+
+.ps-slidewrapper {
+	right: 0px;
+	top: 0px;
+    bottom: 0px;
+	height: 750px;
+/*	overflow: hidden;*/
+}
+
+.no-touch .ps-slidewrapper > nav > a {
+	-webkit-transition: box-shadow 0.4s ease-in-out;
+	-moz-transition: box-shadow 0.4s ease-in-out;
+	-ms-transition: box-shadow 0.4s ease-in-out;
+	-o-transition: box-shadow 0.4s ease-in-out;
+	transition: box-shadow 0.4s ease-in-out;
+}
+
+.no-touch .ps-slidewrapper > nav > a:hover {
+	box-shadow: inset 0 0 0 9999px rgba(246,224,121,0.1);
+}
+
+.no-touch .ps-slidewrapper > nav > a:first-child:hover {
+	box-shadow: inset 0 0 0 9999px rgba(249,15,15,0.1);
+}
+
+.ps-slidewrapper > nav > a:after {
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	margin: -20px 0 0 -50px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	border-left: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+
+.ps-slidewrapper > nav > a:first-child:after {
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+	margin: -80px 0 0 -50px;
+}
+
+.ps-slides > div,
+.ps-slidewrapper > nav > a {
+/*	background-color: #fff;*/
+	background-position: center top;
+	background-repeat: no-repeat;
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	background-size: auto 100%;
+}
+
+.ps-slides {
+	top: 150px;
+    height: 450px;
+    min-height: 450px;
+	bottom: 150px;
+	width: 100%;
+    overflow: hidden;
+}
+
+.ps-slides > div {
+	width: 90%;
+	height: 420px;
+    min-height: 450px;
+/*    border: 1px solid #fff;*/
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.ps-slidewrapper > nav {
+	width: 100%;
+	height: 100px;
+	bottom: 50px;
+	right: 0px;
+	z-index: 500;
+}
+
+.ps-slidewrapper > nav > a {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+.ps-slidewrapper > nav > a:first-child {
+
+}
+
+.ps-move {
+	-webkit-transition: top 400ms ease-out;
+	-moz-transition: top 400ms ease-out;
+	-o-transition: top 400ms ease-out;
+	-ms-transition: top 400ms ease-out;
+	transition: top 400ms ease-out;
+}
+
+
+/*Photos*/
+
+#chencha-photo {
+/*    background-image:url(images/andela.jpg);*/
+    background-color: rgba(2, 132, 130, 0.5)
+
+}
+
+#wanjugu-photo {
+    background-image:url(images/iwanjugu.png);
+    background-color:rgba(255,0,0,0.3)}
+#kirwa-photo {
+    background-image:url(images/kirwa.png);
+    background-color:rgba(255,255,0,0.3);
+
+}
+#ben-photo {
+    background-image:url(images/ben.JPG);
+    background-color:rgba(232, 122, 74, 0.3);
+
+}
+
+.team-photo {
+    z-index: 1;
+    top: -100%;
+}
+
+
+/*---------------------------------------------------------------*/
+
+
+
+
+
+

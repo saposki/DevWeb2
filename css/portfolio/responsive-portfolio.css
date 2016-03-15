@@ -1,0 +1,659 @@
+/*-----------------------------------------*/
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1800px) {
+
+
+}
+
+
+/*---------------------------------------------------------------*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1279px) {
+    #bt-menu {
+        visibility: hidden;
+    }
+
+    .menu, .contents {
+        position: relative;
+        width: 100%;
+        height: 100vh !important;
+        z-index: 100;
+    }
+
+    .v-nav {
+        height: 100vh;
+        width: 100px !important;
+        height: 100vh;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contents{
+        width: calc(100% - 100px) !important;
+        height: 100vh;
+    }
+
+    .flex {
+        width: 60px;
+        height: 410px;
+        top:70px;
+        z-index: 999;
+    }
+
+    .flex div{
+        width: 50px;
+        height: 80px;
+        color: #fff;
+        text-align: center;
+        padding-top: 35%;
+    }
+
+    .flex div p {
+        font-family: Raleway-SemiBold;
+        font-size: .8rem;
+    /*    font-weight: bold;*/
+    }
+
+
+    /*-------------------------------------------------------------------*/
+    .descr {
+        height: 100%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        position: relative;
+        padding: 0 10px !important;
+    }
+
+    #portfolio-logo, #portfolio-intro {
+    /*    position: absolute;*/
+    }
+
+    /*----logo----*/
+    #portfolio-logo {
+        padding-top: 10px;
+        width: 100%;
+        height: 70px;
+    }
+
+    /*----Description----*/
+    #portfolio-intro {
+        width: 100%;
+        height: 130px;
+        padding: 10px;
+/*        margin-bottom: 20px;*/
+    /*    top: 70px;*/
+    }
+
+    .page-title {
+        font-family: SlimJoe;
+        font-size:30px;
+        font-weight: bolder;
+        margin-bottom:20px;
+        height: 40px;
+        color: white
+    }
+
+    .intro-text {
+        font-size: 1.1rem;
+        height: auto;
+    /*    padding: 50px 0 30px 0;*/
+    }
+
+
+    /*----The projets arrangement ----*/
+    #con_flex {
+        font-family: Raleway-Regular;
+        width: 1000px;
+        position: relative;
+    }
+
+    .pres {
+        margin-bottom: 10px;
+    }
+
+    .text {}
+
+    .strapline {
+        font-size: 1rem !important;
+    }
+
+}
+
+/*-----------------------------------------------------------------*/
+/*Medium Screen*/
+@media only screen and (max-width: 1200px){
+
+    /*-----------------------------------------*/
+    /*-----------vertical -menu--------*/
+
+    .row .x-bg {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .menu, .contents {
+        position: relative;
+        width: 100%;
+        height: 100vh !important;
+        z-index: 100;
+    }
+
+    .v-nav {
+        height: 100vh;
+        width: 100px !important;
+        height: 100vh;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contents{
+        width: calc(100% - 100px) !important;
+        height: 100vh;
+/*        left: -1%;*/
+    }
+    .descr {
+        padding: 0 10px !important;
+    }
+
+    #con_flex {
+        width: 800px !important;
+        position: relative;
+/*        margin-top: -40px;*/
+    }
+
+    .con_pres {
+        width: 100%;
+        height: 400px;
+        margin: 0 20px 0 20px;
+        }
+
+
+
+    /*---- The divs ----*/
+    /*Images*/
+
+    .con_jan,.con_pres{
+        height: 430px;
+        padding:16px;
+        margin-bottom:8px;
+        overflow:hidden;
+        border-radius:4px;
+        background-color:#14181c;
+        border:2px solid transparent;
+        color:#ffffff;
+        cursor:default;
+        float: left;
+        -webkit-transition:border .1s linear;transition:border .1s linear
+    }
+
+
+    .con_pres_img {
+        height: 300px;
+        position:relative;
+        width:calc(100% + 34px);
+        margin-left:-16px;
+        margin-top:-16px;
+        margin-bottom:16px;
+        border-top-left-radius:4px;
+        border-top-right-radius:4px;
+        overflow:hidden;
+    }
+}
+
+/*----------------------------------------------------------------*/
+/*Medium screens*/
+@media only screen and (max-width : 992px){
+
+    /*------------------------------------------------------------*/
+    /*-----------vertical -menu--------*/
+
+    .menu, .contents {
+        position: relative;
+        width: 100%;
+        height: 100vh !important;
+        z-index: 100;
+    }
+
+    .v-nav {
+        height: 100vh;
+        width: 80px !important;
+        height: 100vh;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contents{
+        width: calc(100% - 80px) !important;
+        height: 100vh;
+        left: -6%;
+    }
+
+    .descr {
+        padding: 0 10px !important;
+    }
+
+    #con_flex {
+        width: 95% !important;
+        position: relative;
+        margin-top: 5px;
+    }
+
+}
+
+
+/*----------------------------------------------------------------*/
+ /*Small screens*/
+@media screen and (max-width: 768px) {
+    /*------------------------------*/
+    /*Content*/
+    .menu, .contents {
+        position: absolute;
+        height: 100vh !important;
+        z-index: 100;
+
+    }
+
+    .menu {
+        width: 0px !important;
+        visibility: hidden;
+    }
+
+    .contents{
+        width: 100% !important;
+        height: 100vh;
+        left:0;
+    }
+
+    .h-nav, #portfolio-logo, #portfolio-intro {
+        position: relative;
+    }
+
+    .h-nav {
+        height: 70px;
+        width: 100%;
+        visibility: visible;
+        margin:20px 0 0 0;
+    }
+
+    .h-flex {
+        width: 300px;
+        height: 70px;
+    }
+
+    .h-flex div{
+        width: 70px;
+        height: 80px;
+        color: #fff;
+        text-align: center;
+        padding-top: 25%;
+    }
+
+
+    .h-flex div p {
+        font-family: Raleway-SemiBold;
+        font-size: .8rem;
+    /*    font-weight: bold;*/
+    }
+
+    .h-flex div img {
+        width: 31px;
+    }
+
+    .menu-icon-h img {
+       width: 40px;
+
+    }
+
+    .menu-icon-h .menu-title {
+    /*        visibility: hidden;*/
+        font-size: 0rem;
+    }
+
+
+    .menu-item {
+    /*    visibility: hidden;    */
+    }
+
+
+    /*----logo----*/
+    #portfolio-logo {
+        width: 100%;
+        height: 0px;
+        visibility: hidden;
+    }
+
+    /*----Description----*/
+    #portfolio-intro {
+        width: 100%;
+        height: 110px;
+        margin-top: -40px;
+    }
+
+    .page-title {
+        font-family: SlimJoe;
+        font-size:30px;
+        font-weight: bolder;
+        margin-bottom:10px;
+        height: 40px;
+        color: white
+    }
+
+    .intro-text {
+        font-size: 1.1rem;
+        height: auto;
+    /*    padding: 50px 0 30px 0;*/
+    }
+
+    #con_flex {
+        font-family: Raleway-Regular;
+        position: relative;
+        padding: 0 !important;
+    }
+
+    .con_pres {
+        width: 100%;
+        height: 400px;
+        margin: 0 20px 0 20px;
+        margin-left: -.4%;
+        }
+
+
+
+    /*---- The divs ----*/
+    /*Images*/
+
+    .con_jan,.con_pres{
+        height: 430px;
+        padding:16px;
+        margin-bottom:8px;
+        overflow:hidden;
+        border-radius:4px;
+        background-color:#14181c;
+        border:2px solid transparent;
+        color:#ffffff;
+        cursor:default;
+        float: left;
+        -webkit-transition:border .1s linear;transition:border .1s linear
+    }
+
+
+    .con_pres_img {
+        height: 300px;
+        position:relative;
+        width:calc(100% + 34px);
+        margin-left:-16px;
+        margin-top:-16px;
+        margin-bottom:16px;
+        border-top-left-radius:4px;
+        border-top-right-radius:4px;
+        overflow:hidden;
+    }
+
+}
+
+/*----------------------------------------------------------------*/
+/* Extra Small Devices */
+@media screen and (max-width: 601px) {
+    /*------------------------------*/
+    /*Content*/
+
+    .h-nav {
+        height: 70px;
+        width: 100%;
+        visibility: visible;
+        margin:20px 0 0 0;
+    }
+
+    .h-flex {
+        width: 290px;
+        height: 70px;
+    }
+
+    .h-flex div{
+        width: 55px;
+        height: 60px;
+        color: #fff;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+
+    .h-flex div p {
+        font-family: Raleway-SemiBold;
+        font-size: .8rem;
+    /*    font-weight: bold;*/
+    }
+
+    .h-flex div img {
+        width: 30px;
+    }
+
+    /*----logo----*/
+    #portfolio-logo {
+        width: 100%;
+        height: 0px;
+        visibility: hidden;
+    }
+
+    /*----Description----*/
+    #portfolio-intro {
+        width: 100%;
+        height: 110px;
+    }
+
+    .page-title {
+        font-family: SlimJoe;
+        font-size:2rem;
+        font-weight: bolder;
+        margin-bottom:10px;
+        height: 40px;
+        color: white
+    }
+
+    .intro-text {
+        font-size: 1rem;
+        height: auto;
+    /*    padding: 50px 0 30px 0;*/
+    }
+
+    #con_flex {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .con_pres {
+        width: 100%;
+        margin: 0 10px 0 10px;
+        margin-left: -.4%;
+        }
+
+
+
+    /*---- The divs ----*/
+    /*Images*/
+
+    .con_jan,.con_pres{
+        height: 350px;
+        padding:16px;
+        margin-bottom:8px;
+        overflow:hidden;
+        border-radius:4px;
+        background-color:#14181c;
+        border:2px solid transparent;
+        color:#ffffff;
+        cursor:default;
+        float: left;
+        -webkit-transition:border .1s linear;transition:border .1s linear
+    }
+
+
+    .con_pres_img {
+        height: 240px;
+        position:relative;
+        width:calc(100% + 34px);
+        margin-left:-16px;
+        margin-top:-16px;
+        margin-bottom:16px;
+        border-top-left-radius:4px;
+        border-top-right-radius:4px;
+        overflow:hidden;
+    }
+
+    .text_on_image p {
+        font-size: 8rem;
+    }
+
+    .title {
+        font-size: 1.7rem !important;
+    }
+
+}
+
+/*----------------------------------------------------------------*/
+/* Phones */
+@media only screen and (max-width : 480px) {
+    /*------------------------------*/
+    /*Content*/
+
+    .flex {
+        top: 0;
+    }
+
+    #hamburger {
+        visibility: visible;
+        margin: 0 20px;
+
+    }
+
+    .h-nav, .h-flex {
+        height: 0px;
+        visibility: hidden;
+
+    }
+
+    .h-flex {
+        width: 220px;
+        height: 50px;
+    }
+
+    .h-flex div{
+        width: 40px;
+        height: 50px;
+        color: #fff;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+
+    .h-flex div p {
+        font-family: Raleway-SemiBold;
+        font-size: .8rem;
+    /*    font-weight: bold;*/
+    }
+
+    .h-flex div img {
+        width: 20px;
+    }
+
+
+    /*----logo----*/
+    #portfolio-logo {
+        width: 100%;
+        height: 0px;
+        visibility: hidden;
+    }
+
+    /*----Description----*/
+    #portfolio-intro {
+        width: 100%;
+        height: 110px;
+    }
+
+    .page-title {
+        font-family: SlimJoe;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        margin: 5px 0px 5px 0;
+        height: 40px;
+        color: white
+    }
+
+    .intro-text {
+        font-size: 1rem;
+        height: auto;
+        width: 100%;
+    /*    padding: 50px 0 30px 0;*/
+    }
+
+    .intro-text p {
+        height: auto;
+        font-size: .9rem;
+    }
+
+    .contents {
+        padding: 0 !important;
+
+    }
+
+    #con_flex {
+        width: 100% !important;
+        padding: 0;
+    }
+
+
+
+    /*---- The divs ----*/
+    /*Images*/
+
+    .con_pres {
+        width: 100%;
+        margin: 0;
+        margin-left: -.4%;
+        }
+
+    .con_jan,.con_pres{
+        height: 300px;
+        padding:10px;
+        margin-bottom:8px;
+        overflow:hidden;
+        border-radius:4px;
+        background-color:#14181c;
+        border:2px solid transparent;
+        color:#ffffff;
+        cursor:default;
+        float: left;
+        -webkit-transition:border .1s linear;transition:border .1s linear
+    }
+
+
+    .con_pres_img {
+        height: 190px;
+        position:relative;
+        width:calc(100% + 34px);
+        margin-left:-16px;
+        margin-top:-16px;
+        margin-bottom:16px;
+        border-top-left-radius:4px;
+        border-top-right-radius:4px;
+        overflow:hidden;
+    }
+
+    .text_on_image p {
+        font-size: 7rem;
+    }
+
+    .con_pres_text_left {
+        padding: 0 !important;
+
+    }
+
+    .title {
+        font-size: 1.5rem !important;
+    }
+
+    .text {
+        font-size: .9rem !important;
+        width: 100%;
+    }
+
+}
