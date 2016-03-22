@@ -20,42 +20,6 @@
 /*Medium screens*/
 @media only screen and (max-width : 992px){
 
-    /*-----------side -menu--------*/
-
-    .menu, .home-content {
-        position: relative;
-    }
-
-    .menu {
-        width: 100px !important;
-        height: 100vh;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .home-content {
-    width: calc(100% - 100px) !important;
-    }
-
-    .flex {
-        width: 50px;
-
-    }
-
-    .flex div{
-        width: 50px;
-        height: 80px;
-    }
-
-    .flex div p {
-        font-family: Raleway-SemiBold;
-        font-size: .8rem;
-    }
-
-    .flex  div:hover, .flex  div p:hover {
-        color: #fff
-    }
-
     /*-----------the content--------*/
    .home-descr {
     height: 500px;
@@ -140,44 +104,17 @@
  /*Small screens*/
 @media screen and (max-width: 769px) {
 
-    .home-content {
-        width: 95% !important;
-    }
-
-    .home-descr {
-    height: 700px;
-    width: 700px !important;
-    top: 30px;
-
-/*    top: 50%;*/
-    left: 49%;
-    transform: translate(-50%, 0%);
-    position: absolute;
-    }
-
-    .h-nav, .m-logo, .moringa-title, .slogan, #btn-click{
+    .m-logo, .moringa-title, .slogan, #btn-click{
         position: relative;
     }
-     /*-----------side -menu--------*/
-
-    .menu {
-        width: 0px !important;
-        height: 100vh;
-        text-align: center;
-        margin: 0 auto;
-        visibility: hidden;
-    }
-
-    .v-menu {
-        visibility: hidden;
-    }
-
 
     /*-----------horizontal-menu--------*/
     .h-nav {
         height: 70px;
-        width: 480px !important;
+        width: auto !important;
         visibility: visible;
+
+        position: absolute;
         top: 0;
     }
 
@@ -203,12 +140,6 @@
     /*    font-weight: bold;*/
     }
 
-    .menu-icon-h img {
-        width: 0px;
-        visibility: hidden;
-
-    }
-
     .h-nav .menu-item {
         visibility: visible;
     }
@@ -216,12 +147,11 @@
     /*-----------content--------*/
     .m-logo {
         margin-top: 100px;
-
     }
 
     .logo-big {
-    height: 60px;
-    width: 100px;
+        visibility: hidden;
+/*        height: 0px;*/
     }
 
     .moringa-title {
@@ -369,33 +299,6 @@
 /*----------------------------------------------------------------*/
 /* Phones */
 @media only screen and (max-width : 480px) {
-
-    .menu {
-        width: 0px !important;
-        height: 100vh;
-        text-align: center;
-        margin: 0 auto;
-
-    }
-
-    .h-nav, .h-flex .menu-item {
-        height: 0px;
-        visibility: hidden !important;
-    }
-
-    .flex{
-        top: 0;
-    }
-
-    #hamburger {
-        visibility: visible;
-        height: 100%;
-        margin: -20px 20px;
-
-    }
-
-
-
 
     /*-----------the content--------*/
     .home-content {

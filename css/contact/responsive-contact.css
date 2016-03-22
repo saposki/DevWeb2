@@ -121,7 +121,7 @@
 
     /*-----------horizontal -menu--------*/
 
-    .h-nav, .h-flex .menu-item {
+    .h-nav, .h-flex  {
         visibility: visible;
 
     }
