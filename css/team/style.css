@@ -1,37 +1,4 @@
-@import url('normalize.css');
-
-@font-face {
-    font-family: BIGJOHN;
-    src: url(../font/BIGJOHN.otf);
-}
-@font-face {
-    font-family: Metropolis;
-    src: url(../font/Metropolis.otf);
-}
-@font-face {
-    font-family: SlimJoe;
-    src: url(../font/SlimJoe.otf);
-}
-
-@font-face {
-    font-family: Anders;
-    src: url(../font/Anders.ttf);
-}
-
-@font-face {
-    font-family: Raleway-Regular;
-    src: url(../font/raleway/Raleway-Regular.otf);
-}
-
-@font-face {
-    font-family: Ribbon;
-    src: url(../font/Ribbon.otf);
-}
-
 /*--------------------------------------------------------------------*/
-
-
-
 
 html, body {
     height: 100%;
@@ -46,14 +13,6 @@ html, body {
     overflow-y:scroll;
 
 }
-
-/*Colors*/
-.chencha {
-    color: teal !important;
-}
-.wanjugu {color: #F0414C !important;}
-.kirwa{color: #e2e43a !important;}
-.ben { color: #E87A4A !important;}
 
 /*-------------------------------------------------*/
 
@@ -429,23 +388,33 @@ html, body {
 /*Photos*/
 
 #chencha-photo {
-/*    background-image:url(images/andela.jpg);*/
-    background-color: rgba(2, 132, 130, 0.5)
+    background-image:url(/img/Chencha.jpg);
+/*    background-color: rgba(2, 132, 130, 0.5)*/
+}
 
+#andi-photo {
+    background-image:url(/img/Andi.jpg);
+/*    background-color:rgba(255,255,0,0.3)*/
 }
 
 #wanjugu-photo {
-    background-image:url(images/iwanjugu.png);
-    background-color:rgba(255,0,0,0.3)}
-#kirwa-photo {
-    background-image:url(images/kirwa.png);
-    background-color:rgba(255,255,0,0.3);
-
+    background-image:url(/img/wanjugu.jpg);
+/*    background-color:rgba(255,0,0,0.3)*/
 }
-#ben-photo {
-    background-image:url(images/ben.JPG);
-    background-color:rgba(232, 122, 74, 0.3);
 
+#beverly-photo {
+    background-image:url(/img/Beverly.jpg);
+/*    background-color:rgba(2, 132, 130, 0.5);*/
+}
+
+#ben-photo {
+    background-image:url(/img/Ben.jpg);
+/*    background-color:rgba(232, 122, 74, 0.3);*/
+}
+
+#vc-photo {
+    background-image:url(/img/VC.jpg);
+/*    background-color:rgba(255,255,0,0.3)*/
 }
 
 .team-photo {

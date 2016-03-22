@@ -177,6 +177,8 @@ body {
 	opacity: 1;	
 	-webkit-transition: opacity 0.6s;
 	transition: opacity 0.6s;
+
+    background: url(../overlays/05.png) #555 center center repeat;
 }
 
 .icon:before {
@@ -272,16 +274,31 @@ p.dummy-text:nth-child(3) {
 .dummy-img {
 	height: 400px;
 	background-color: #ddd;
-	margin: 30px auto;
+	margin: 40px auto;
+    background: url(../overlays/05.png) #555 center center repeat;
+    position: relative;
+}
+
+.dummy-img img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.pop-up-title {
+    margin: 30px;
 }
 
 .dummy-text {
+    height: 300px;
 	text-align: left;
 	margin: 0 auto;
-	padding: 10px 0;
-	color: #ddd;
-	font-size: 1em;
-/*	font-family: 'Blokk', Arial, serif;*/
+	padding: 10px;
+    margin-top: -5px;
+	color: aliceblue;
+	font-size: 1.1rem;
+    text-align: justify;
 }
 
 .dummy-text:last-child {

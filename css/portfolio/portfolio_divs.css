@@ -25,7 +25,7 @@ html, body {
 
     font-family: Raleway-Regular;
 /*    opacity: .3;*/
-    background: url(../slider/overlays/05.png) #323333 center center repeat;
+    background: url(../overlays/02.png) #323333 center center repeat;
 /*    background: url(../img/pattern_stripe.png) #000;*/
     color: #555;
     z-index: 0;
@@ -34,30 +34,12 @@ html, body {
 
 h1, h2, h3, h4, a {
     color: #636;
-    font-family: SlimJoe
+    font-family: SlimJoe;
 }
 
 .container {
     height: 100%;
-}
-/**--------- Aligning Divs ---------**/
-.center-h {
-    left: 50%;
-    transform: translate(-50%, 0%);
-     position: absolute;
-}
-
-.center-v {
-    top: 50%;
-    transform: translate(0%, -50%);
-     position: absolute;
-}
-
-.center-c {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+    width: 90% !important;
 }
 
 /**-----------------------------------------------------**/
@@ -92,6 +74,7 @@ h1, h2, h3, h4, a {
     height: 100vh;
     text-align: center;
     margin: 0 auto;
+
 }
 
 .contents{
@@ -105,7 +88,11 @@ h1, h2, h3, h4, a {
     width: 60px;
     height: 410px;
     top: 40px;
-    z-index: 999;
+    z-index: 100;
+
+
+    position: absolute;
+    left: 7%;
 }
 
 .flex div{
@@ -154,13 +141,14 @@ h1, h2, h3, h4, a {
     height: 0px;
     width: 100% !important;
     position: absolute;
-    visibility: hidden;
+
 }
 
 .h-flex {
     width: 420px;
     height: 70px;
 /*    padding-top: 10px;*/
+    visibility: hidden;
 
 }
 
@@ -214,10 +202,11 @@ h1, h2, h3, h4, a {
     left: 50%;
     transform: translate(-50%, 0%);
     position: relative;
-    margin-top: 40px;
+/*    margin-top: 40px;*/
     padding: 0 !important;
 }
 
+header {}
 #portfolio-logo, #portfolio-intro {
 /*    position: absolute;*/
 }
@@ -267,22 +256,33 @@ h1, h2, h3, h4, a {
 /*    margin-top: 5px;*/
 }
 
+section {
+    font-family: Raleway-Regular;
+/*    width: 1130px;*/
+/*    position: relative;*/
+    padding: 0 !important;
+    margin-top: -50px;
+}
+
 /*---- The divs ----*/
+
+
 /*Images*/
 
 .con_jan,.con_pres{
     width:calc(49% - 4px);
     height: 430px;
     padding:16px;
-    margin-bottom:8px;
+    margin: 8px;
+    margin-bottom:10px;
     overflow:hidden;
     border-radius:4px;
     background-color:#14181c;
     border:2px solid transparent;
     color:#ffffff;
     cursor:default;
-    float: left;
-    margin-left: 10px;
+    float:right;
+    margin-left: 0px;
     -webkit-transition:border .1s linear;transition:border .1s linear
 }
 
@@ -333,6 +333,7 @@ h1, h2, h3, h4, a {
 
 #ihub:hover {
     background-image: url(img/fi.png) ;
+/*    color: transparent*/
 }
 
 /*Laikiana portfolio*/

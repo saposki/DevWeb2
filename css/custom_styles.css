@@ -1,3 +1,30 @@
+@font-face {
+    font-family: BIGJOHN;
+    src: url(../font/BIGJOHN.otf);
+}
+@font-face {
+    font-family: Metropolis;
+    src: url(../font/Metropolis.otf);
+}
+@font-face {
+    font-family: SlimJoe;
+    src: url(../font/SlimJoe.otf);
+}
+@font-face {
+    font-family: Anders;
+    src: url(../font/Anders.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(../font/raleway/Raleway-Regular.otf);
+}
+
+@font-face {
+    font-family: Raleway-SemiBold;
+    src: url(../font/raleway/Raleway-SemiBold.otf);
+}
+
 /*=========================================================================== */
         /*---------- General Styles -------------*/
 /*=========================================================================== */
@@ -21,15 +48,15 @@ html, body {
     border: 0;
     line-height: 1;
     margin: 0;
-    font-family: Raleway-Regular !important;
+    font-family: Raleway-Regular;
     -webkit-background-size: cover;
     background-size: cover;
     color: #555;
+
 }
 
 h1, h2, h3, h4, h5 {
     font-weight: bold;
-    font-family: SlimJoe;
 }
 
 a {}
@@ -97,19 +124,28 @@ a {}
 
 /*-----------------------------------------*/
 /*Background colors*/
-.orange-text {color: #E87A4A;}
-.orange-bg {background-color: #E87A4A;}
-.yellow-text {color: #e2e43a;}
-.yellow-bg {background-color: #e2e43a;}
-.pink-text {color: #F0414C;}
-.pink-bg {background-color: #F0414C;}
-.purple-text {color: #4F4FE0;}
-.purple-bg {background-color: #4F4FE0;}
-.teal-text {color: teal;}
-.teal-bg {background-color: teal;}
-.aliceblue-text {color: aliceblue}
+.orange-text {color: #E87A4A !important;}
+.orange-bg {background-color: #E87A4A !important;}
 
+.yellow-text {color: #e2e43a !important;}
+.yellow-bg {background-color: #e2e43a !important;}
 
+.pink-text {color: #F0414C !important;}
+.pink-bg {background-color: #F0414C !important;}
+
+.purple-text {color: #4F4FE0 !important;}
+.purple-bg {background-color: #4F4FE0 !important;}
+
+.teal-text {color: teal !important;}
+.teal-bg {background-color: teal !important;}
+
+.aliceblue-text {color: aliceblue !important;}
+
+/*Colors*/
+.teal {color: teal !important;}
+.wanjugu {color: #F0414C !important;}
+.kirwa{color: #e2e43a !important;}
+.ben { color: #E87A4A !important;}
 /*-----------------------------------------*/
 /* Borders */
 .round-shadow {

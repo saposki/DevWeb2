@@ -1,52 +1,23 @@
 <!doctype html>
 <html lang=en>
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>PORTFOLIO::MSDevShop</title>
-    <meta name="MSDevShop" content="Portfolio" />
 
     <!--Stylesheets-->
-    <!--Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/fonts.css" >
-    <link rel="stylesheet" href="css/portfolio/portfolio_edited.css.css">
-    <link rel="stylesheet" type="text/css" href="css/custom_styles.css">
+    <link rel="stylesheet" href="css/portfolio/normalize.css" />
+    <link rel="stylesheet" href="css/fonts.css" >
+    <link rel="stylesheet" href="css/portfolio/portfolio_edited.css">
+    <link rel="stylesheet" href="css/custom_styles.css">
     <link rel="stylesheet" href="css/portfolio/portfolio_divs.css">
-    <link rel="stylesheet" type="text/css" href="css/materialize.css" />
+    <link rel="stylesheet" href="css/materialize.css" />
     <link rel="stylesheet" href="css/portfolio/demo.css" />
     <link rel="stylesheet" href="css/portfolio/component.css" />
-<!--    <link rel="stylesheet" type="text/css" href="css/3dgrid.css" />-->
-<!--    <link rel="stylesheet" type="text/css" href="css/3dgrid-changed.css"/>-->
-    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+<!--    <link rel="stylesheet" href="css/style2.css" />-->
     <link rel="stylesheet" href="css/portfolio/responsive-portfolio.css"/>
     <link rel="stylesheet" href="css/fa/css/font-awesome.css">
     <link rel="stylesheet" href="css/hover.css">
-    
-    
-    <!--constants-->
-<!--
-    <link rel="icon" href="img/logo-dark.png">
-    <link rel="stylesheet" type="text/css" href="css/fonts.css" >
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/materialize.css">
-    <link rel="stylesheet" type="text/css" href="css/custom_styles.css">
-    <link rel="stylesheet" type="text/css" href="css/fa/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="css/hover.css">
-    <link rel="stylesheet" type="text/css" href="css/style2.css" />
--->
-    
-    <!--others-->    
-<!--
-    <link rel="stylesheet" href="css/portfolio/portfolio_edited.css">
-    <link rel="stylesheet" href="css/portfolio/portfolio_divs.css">
-    <link rel="stylesheet" href="css/portfolio/demo.css" />
-    <link rel="stylesheet" href="css/portfolio/component.css" />
-    <link rel="stylesheet" href="css/portfolio/responsive-portfolio.css"/>    
--->
-    
-    
+
      <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
@@ -56,11 +27,98 @@
     <script src="js/wow.js"></script>
 </head>
 
+<!----------------------------------------------------------------->
 <body>
     <div class="container">
-        
-        <!-- Top Stuff -->
+    <!--<div class="cover row x_bg descr strapline col s12 m12 l12">-->
+    <!--    <div class="descr strapline col s12 m12 l12">            -->
+
+        <!-------------------------------------------------------->
+        <!--Headings-->
         <header class="codrops-header">
+
+            <!------------------------>
+            <div class="col s12 m2 l2 h-nav center-h">
+
+                <!--Vertical Navigation-->
+                <div class="flex center-h">
+                    <a href="#">
+                        <div id="hamburger">
+                            <img src="img/menu32.png">
+                        </div>
+                    </a>
+
+                     <!--home-->
+                     <a href="index.html">
+                        <div class="menu-item home">
+                            <img src="img/house32-white.png">
+                            <p class="teal-text">Home</p>
+                        </div>
+                    </a>
+
+                     <!--portfolio-->
+                     <a href="portfolio2.html">
+                        <div class="menu-item portfolio">
+                             <img src="img/briefcase32-white.png">
+                             <p class="pink-text">Portfolio</p>
+                        </div>
+                     </a>
+
+                     <!--team-->
+                     <a href="team.html">
+                         <div class="menu-item team">
+                             <img src="img/multiple25.png">
+                             <p class="aliceblue-text">Team</p>
+                         </div>
+                    </a>
+
+                     <!--contact-->
+                     <a href="contact.html">
+                         <div class="menu-item contact">
+                             <img src="img/phone(2)">
+                             <p class="orange-text">Contact</p>
+                         </div>
+                     </a>
+                 </div>
+
+                <!--Horizontal Navigation-->
+                <div class="h-flex center-h">
+
+                     <!--home-->
+                     <a href="index.html">
+                        <div class="menu-item">
+                            <img src="img/house32-white.png">
+                            <p class="teal-text">Home</p>
+                        </div>
+                    </a>
+
+                     <!--portfolio-->
+                     <a href="portfolio.html">
+                        <div class="menu-item">
+                             <img src="img/briefcase32-white.png">
+                             <p class="pink-text">Portfolio</p>
+                        </div>
+                     </a>
+
+                     <!--team-->
+                     <a href="team.html">
+                         <div class="menu-item">
+                             <img src="img/multiple25.png">
+                             <p class="aliceblue-text">Team</p>
+                         </div>
+                    </a>
+
+                     <!--contact-->
+                     <a href="contact.html">
+                         <div class="menu-item">
+                             <img src="img/phone(2)">
+                             <p class="orange-text">Contact</p>
+                         </div>
+                     </a>
+                 </div>
+            </div>
+
+            <!------------------------>
             <!-- Logo -->
             <div id="portfolio-logo" class="col s12 m12 l12">
                 <a href="index.html">
@@ -68,9 +126,8 @@
                 </a>
             </div>
 
-            <!----------------------------->
+            <!------------------------>
             <!-- Page Intro -->
-
             <div id="portfolio-intro" class="project_title col s12 m12 l12">
                 <span class="page-title col s12 m12 l12">
                     Our projects
@@ -82,15 +139,20 @@
                     </p>
                     <p>Have a look at what we've built </p>
                 </span>
-
             </div>
-        </header>        
+        </header>
+
         
-        <!--------------------------------------------->
+        <!------------------------------------------------------------->
+        <!--body content -->
         <section class="grid3d vertical" id="grid3d">
+
+            <!----------------------------------------------->
+            <!----------------------------------------------->
+            <!-- portfolio items -->
             <div class="grid-wrap">
                 <div class="grid">
-                    <!---------------------------------------------->
+                    <!------------------------->
                     <!-- iHub -->
                     <div class="con_pres accelerate">
                         <div class="con_pres_img">
@@ -105,50 +167,145 @@
                             <!--Brief Project Description-->
                             <div id="ihub-text" class="con_pres_text_left col s12 m12 l12">
                                 <span class="pres title">Ihub</span>
-                                <br>
-                                <span class="text regular">
-                                    <br>The iHub is premier hub in Africa providing resources to budding enterpreneurs in the Technology ecosystem to ensure their success..
-                                </span>
-                            </div>
-                            <br>
-                        </div>
-                    </div>
-                    
-                    <!---------------------------------------------->
-                    <!-- iHub -->
-                    <div class="con_pres accelerate">
-                        <div class="con_pres_img">
-                            <div id="ihub" class="text_on_image">
-                                <p class="center-c">I</p>
-        <!--                        <img src="img/fi.png">-->
-                            </div>
-                            <!--<div class="overlay"></div> -->
-                        </div>
 
-                        <div class="con_pres_text">
-                            <!--Brief Project Description-->
-                            <div id="ihub-text" class="con_pres_text_left col s12 m12 l12">
-                                <span class="pres title">Ihub</span>
-                                <br>
                                 <span class="text regular">
                                     <br>The iHub is premier hub in Africa providing resources to budding enterpreneurs in the Technology ecosystem to ensure their success..
                                 </span>
                             </div>
-                            <br>
                         </div>
                     </div>
-                    
-                </div>
-            </div><!-- /grid-wrap -->
-            
+
+                    <!---------------------------------------------->
+                            <!-- Laikiana -->
+                            <div class="con_pres accelerate">
+                                <div class="con_pres_img">
+                                    <div id="recruit" class="text_on_image">
+                                        <p class="center-c">L</p>
+                                    </div>
+                                    <!--<div class="overlay"></div> -->
+                                </div>
+
+                                <div class="con_pres_text">
+                                    <!--Brief Project Description-->
+                                    <div id="recruit-text" class="con_pres_text_left col s12 m12 l12">
+                                        <span class="pres title">Laikiana</span>
+                                        <br>
+                                        <span class="text regular">
+                                            <br>An easy way to recruit, The app sieves through a large database of job applications and returns the most relevant.
+                                        </span>
+                                    </div>
+                                    <br>
+
+                                <!--Button
+                                    <div class="con_pres_text_right col s4 m4 l4">
+                                        <div class="btn-view-proj">View this project</div>
+                                    </div>-->
+
+                                </div>
+                            </div>
+
+                            <!---------------------------------------------->
+                            <!-- Hire Zippy -->
+                            <div class="con_pres accelerate">
+                                <div id="hire-zippy" class="con_pres_img">
+                                    <div class="text_on_image">
+                                        <p class="center-c">H</p>
+                                    </div>
+                                    <!--<div class="overlay"></div> -->
+                                </div>
+
+                                <div class="con_pres_text">
+                                    <!--Brief Project Description-->
+                                    <div id="hirezippy-text" class="con_pres_text_left col s12 m12 l12">
+                                        <span class="pres title">Hire Zippy</span>
+                                        <br>
+                                        <span class="text regular">
+                                            <br>Personalize your job and talent search.
+                Let Hirezippy help you in your quest by honing in on the job of your dreams from all the noise in the market
+                                        </span>
+                                    </div>
+                                    <br>
+
+                                <!--Button
+                                    <div class="con_pres_text_right col s4 m4 l4">
+                                        <div class="btn-view-proj">View this project</div>
+                                    </div>-->
+
+                                </div>
+                            </div>
+
+                            <!---------------------------------------------->
+                            <!-- Inside Out -->
+                            <div class="con_pres accelerate">
+                                <div id="inside-out" class="con_pres_img">
+                                    <div class="text_on_image">
+                                        <p class="center-c">I</p>
+                                    </div>
+                                    <!--<div class="overlay"></div> -->
+                                </div>
+
+                                <div class="con_pres_text">
+                                    <!--Brief Project Description-->
+                                    <div id="insideout-text" class="con_pres_text_left col s12 m12 l12">
+                                        <span class="pres title">Inside Out</span>
+                                        <br>
+                                        <span class="text regular">
+                                            <br>A mock landing page created for the animated movie Inside Out.
+                                        </span>
+                                    </div>
+                                    <br>
+
+                <!--
+                                     Button
+                                    <div class="con_pres_text_right col s4 m4 l4">
+                                        <div class="btn-view-proj">View this project</div>
+                                    </div>
+                -->
+                                </div>
+                            </div>
+
+                            <!---------------------------------------------->
+                            <!-- Ratibar -->
+                            <div class="con_pres accelerate">
+                                <div id="ratibar" class="con_pres_img">
+                                    <div class="text_on_image">
+                                        <p class="center-c">R</p>
+                                    </div>
+                                    <!--<div class="overlay"></div> -->
+                                </div>
+
+                                <div class="con_pres_text">
+                                    <!--Brief Project Description-->
+                                    <div id="ratibar-text" class="con_pres_text_left col s12 m12 l12">
+                                        <span class="pres title">Ratibar</span>
+                                        <br>
+                                        <span class="text regular">
+                                            <br>Ratibar is a timetable software built for colleges and universities that enables institutions to set up proper scheduling for all their lessons and examinations with ease.
+                                        </span>
+                                    </div>
+                                    <br>
+
+                                <!--Button
+                                    <div class="con_pres_text_right col s4 m4 l4">
+                                        <div class="btn-view-proj">View this project</div>
+                                    </div>-->
+
+                                </div>
+                            </div>
+
+                </div> <!---grid end--->
+            </div><!-- /grid-wrap end -->
+
+            <!----------------------------------------------->
+            <!----------------------------------------------->
+            <!--pop-ups-->
             <div class="content">
                 <!--ihub -->
-                <div class="pop-up ihb">                        
+                <div class="pop-up ihb">
+                    <h5 class="pop-up-title">iHub</h5>
                     <div class="dummy-img">
                         <img src="img/fi.png">    
                     </div>
-
-                    <p class="dummy-text pop-up-title">iHub</p>
 
                     <p class="dummy-text">
                     The iHub is premier hub in Africa providing resources to budding enterpreneurs in the Technology ecosystem to ensure their success.
@@ -166,40 +323,61 @@
                     </p>
 
                 </div>
-                
-                <!--ihub -->
-                <div class="pop-up ihb">                        
-                    <div class="dummy-img">
-                        <img src="img/fi.png">    
+
+                <!--------------------------->
+                    <!-- Laikiana -->
+                    <div class="pop-up lkana">
+                        <h5 class="pop-up-title">Laikiana</h5>
+                        <div class="dummy-img"> <img src="img/qfilemanager.png"  height="400px">    </div>
+                        <p class="dummy-text">This Application is written in php, HTML5 and Bootstrap. It's futures are: Job posting, Job application views, Job applicants filter based on different criteria, CV pool , custom mailing system.</p>
                     </div>
 
-                    <p class="dummy-text pop-up-title">iHub</p>
 
-                    <p class="dummy-text">
-                    The iHub is premier hub in Africa providing resources to budding enterpreneurs in the Technology ecosystem to ensure their success.
+                    <!--------------------------->
+                    <!--hirezippy -->
+                    <div class="pop-up hzippy">
+                        <h5 class="pop-up-title">Hirezippy</h5>
+                        <div class="dummy-img"><img src="img/hirezippy_screen.png">    </div>
+                        <p class="dummy-text">Hirezippy is in the forefront bridging the chasm between developers and with great talent and employers building the next generation of products and services.
 
-                    It does this by providing:
+        The platform provides powerful custom search engine that can scan across multiple parameters in location, interest, fitness and availability.
 
-                    - Office space
-                    - High performance computing resources
-                    - UX and UI
-                    - Market research
-                    and much more.
+        It then provides a simple in app messaging system for users to communicate and make the deal.
 
-                    Chencha Jacob, one of our developers built the backend that powers the web services offered by the iHub.
+        In addition to all this it sports an intelligent matching system that dramatically reduces time to hire by alerting developers and employers of interesting prospects.
 
-                    </p>
-                </div>
-                
+        Jobs are sourced from employers posting them directly and from selected partners verified to have quality jobs.
+        .</p>
+
+                    </div>
+
+                    <!--------------------------->
+                    <!-- Inside Out -->
+                    <div class="pop-up inout">
+                        <h5 class="pop-up-title">Inside Out</h5>
+                        <div class="dummy-img"><img src="img/insideout.png" height="400px">    </div>
+                        <p class="dummy-text">Inside Out is a major animated film that was released in mid-2015. This is the developer’s interpretation of how the landing page would best capture the essence of the movie. Wanjugu’s main focus was color, shapes and motion; she incorporated both of these element to bring life and vitality to the site.</p>
+                    </div>
+
+                    <!--------------------------->
+                    <!--ratibar -->
+                    <div class="pop-up rtbr">
+                        <h5 class="pop-up-title">Ratibar</h5>
+                        <div class="dummy-img"><img src="img/ratiba.jpg">       </div>
+                        <p class="dummy-text">Ratibar is a state of the art timetable software built specifically for colleges and universities. Our goal is to enable institutions in setting up proper scheduling for all their lessons and examinations with ease. This is the latest product in our line of products at Briteskills.</p>
+                    </div>
+                <!--------------------------->
                 <span class="loading"></span>
-				<span class="icon close-content"></span>
-                
-            </div>            
+                <span class="icon close-content"></span>
+
+            </div> <!-- content end -->
         </section>
+
+<!--    </div> - cover descr end --->
+
+      </div><!-- /container -->
             
-   </div><!-- /container -->    
-            
- <!----------------------------------------------------------------->
+<!----------------------------------------------------------------->
     <!----------- Scripts --------->
 
     <!-- pop-up animation -->
@@ -239,4 +417,3 @@
 
 </body>
 </html>       
-        
