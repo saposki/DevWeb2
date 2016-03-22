@@ -96,7 +96,7 @@ h1, h2, h3, h4, a {
 }
 
 .flex div{
-    width: 60px;
+    width:60px;
     height: 80px;
     color: #fff;
     text-align: center;
@@ -286,6 +286,9 @@ section {
     -webkit-transition:border .1s linear;transition:border .1s linear
 }
 
+.con_pres:hover {
+    cursor: pointer;
+}
 
 .con_pres_img {
     height: 300px;
@@ -300,7 +303,7 @@ section {
     overflow:hidden;
 }
 
-/*Transparentcy transition*/
+/*Transparency transition*/
 
 
 .text_on_image {
@@ -323,7 +326,7 @@ section {
 #ihub:hover, #recruit:hover, #hire-zippy:hover, #ratibar:hover, #inside-out:hover {
     background-size: cover;
     color: transparent;
-    transition: all 0.6s ease;
+    transition: all 1s ease;
 }
 
 
@@ -332,7 +335,7 @@ section {
 }
 
 #ihub:hover {
-    background-image: url(img/fi.png) ;
+    background-image: url(/img/fi.png) ;
 /*    color: transparent*/
 }
 
@@ -342,7 +345,7 @@ section {
 
 }
 #recruit:hover {
-    background-image: url(img/qfilemanager.png);
+    background-image: url(/img/qfilemanager.png);
     color: transparent;
 }
 
@@ -354,7 +357,7 @@ section {
 }
 
 #hire-zippy:hover {
-    background-image: url(img/hirezippy_screen.png);
+    background-image: url(/img/hirezippy_screen.png);
 }
 
 /*ratibar portfolio*/
@@ -364,16 +367,16 @@ section {
 }
 
 #ratibar:hover {
-    background-image: url(img/ratiba.jpg);
+    background-image: url(/img/ratiba.jpg);
 }
 
 
 /*inside out portfolio*/
 #inside-out, #insideout-text .title {
-    color: #4F4FE0;
+    color: teal;
 }
 #inside-out:hover {
-    background-image: url(img/insideout.png);
+    background-image: url(/img/insideout.png);
 
 }
 
