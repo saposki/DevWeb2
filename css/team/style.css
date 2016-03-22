@@ -197,6 +197,7 @@ html, body {
     padding: 10px;
     border-left: 1px solid #f2f2f2;
 	border-top: 1px solid #f2f2f2;
+    overflow-y: scroll;
 }
 
 .ps-content {
@@ -212,6 +213,7 @@ html, body {
 	font-weight: 400;
 	text-align: justify;
 }
+/*
 
 .ps-content a:last-child {
 	font-size: 14px;
@@ -223,6 +225,7 @@ html, body {
 	padding: 3px;
 	text-indent: 4px;
 }
+*/
 
 .ps-price {
 	float: left;
@@ -268,6 +271,7 @@ html, body {
 	border-color: #b2d79d;
 }
 
+/*
 .ps-content a:last-child:before {
 	content: "\e030";
 	font-family: 'socicon';
@@ -276,6 +280,7 @@ html, body {
 	speak: none;
 	padding-right: 5px;
 }
+*/
 
 
 .ps-slidewrapper {
@@ -424,9 +429,33 @@ html, body {
 
 
 /*---------------------------------------------------------------*/
+.flex-div {
+    width: 200px;
+    height: 40px;
+    display: inline-flex;
+    float: right;
+}
+
+.flex-div a {}
 
 
+.flex-div a div {
+    width: 30px;
+    margin: 0 6px;
+}
 
+.flex-div a div img {
+    width: 30px;
+
+}
+
+.twitter{}
+
+.twitter div {}
+
+.linkedin {}
+
+.github{}
 
 
 
