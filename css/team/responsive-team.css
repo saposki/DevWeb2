@@ -243,7 +243,8 @@
 
     .js .ps-descr {
         margin-top: 20px;
-        height: 270px;
+        height: 200px;
+        padding-bottom: 50px;
     }
     .js .p-descr {
         margin: 10px 0 0 0;
@@ -254,15 +255,14 @@
         position: absolute;
         top: 200px;
         right: 20px
-
     }
-*/
-
 
 	.js .p-descr a:last-child {
 		font-size: 12px;
 		margin: -10px 0 0 0;
 	}
+
+*/
     .js .ps-slidewrapper > nav {
 		height: 130px;
         background: url(../img/pattern_stripe.png) #000;
@@ -403,11 +403,13 @@
         height: 100%;
 	}
 
+/*
     .js .ps-descr a {
         position: absolute;
         top: 240px;
         right: 20px
     }
+*/
 }
 
 /*----------------------------------------------------------------*/
@@ -554,11 +556,13 @@
         height: 100%;
 	}
 
+/*
     .js .ps-descr a {
         position: absolute;
         top: 240px;
         right: 20px
     }
+*/
 }
 
 /*----------------------------------------------------------------*/
@@ -701,6 +705,7 @@
         height: 200px;
     }
 
+/*
     .js .ps-descr a {
         position: absolute;
         top: 280px;
@@ -709,6 +714,7 @@
         font-size: .8rem;
         text-align: center;
     }
+*/
 
     .js .p-content h2 {
         font-size: .9rem;

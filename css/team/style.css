@@ -192,9 +192,9 @@ html, body {
 }
 
 .ps-descr {
-    height: 350px;
+    height: 450px;
     margin-top: 60px;
-    padding: 10px;
+    padding: 10px 10px 100px 10px;
     border-left: 1px solid #f2f2f2;
 	border-top: 1px solid #f2f2f2;
     overflow-y: scroll;
@@ -204,11 +204,11 @@ html, body {
 /*    z-index: 499 !important;*/
 }
 
-.ps-content p {
-	line-height: 26px;
-	font-size: 12px;
-	letter-spacing: 2px;
-	word-spacing: 10px;
+.ps-content p, .ps-content div {
+	line-height: 1.5rem;
+	font-size: 1rem;
+	letter-spacing: .2rem;
+	word-spacing: 1rem;
 	padding: 10px 15px;
 	font-weight: 400;
 	text-align: justify;
@@ -257,7 +257,7 @@ html, body {
     letter-spacing: -.2px;
     word-spacing: .2rem;
     margin: 20px 0 0 0;
-    height: 100%;
+    height: 450px;
     color: #C4C4C4;
 }
 
@@ -375,6 +375,8 @@ html, body {
 	height: 100%;
 	position: relative;
 	float: left;
+
+    background-image: none !important;
 }
 
 .ps-slidewrapper > nav > a:first-child {
@@ -430,13 +432,15 @@ html, body {
 
 /*---------------------------------------------------------------*/
 .flex-div {
-    width: 200px;
+    width: auto;
     height: 40px;
     display: inline-flex;
     float: right;
 }
 
-.flex-div a {}
+.flex-div a {
+    float: right;
+}
 
 
 .flex-div a div {
