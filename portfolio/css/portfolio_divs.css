@@ -85,22 +85,23 @@ h1, h2, h3, h4, a {
 }
 
 .flex {
-    width: 60px;
+    width: 70px;
     height: 410px;
-    top: 40px;
+    top: 0px;
     z-index: 100;
 
 
     position: absolute;
-    left: 7%;
+    left: 5%;
 }
 
 .flex div{
-    width:60px;
+    width:70px;
     height: 80px;
     color: #fff;
     text-align: center;
     padding-top: 35%;
+    margin: 10px;
 }
 
 .flex div p {
@@ -153,11 +154,13 @@ h1, h2, h3, h4, a {
 }
 
 .h-flex div{
-    width: 80px;
+    width: 70px;
     height: 80px;
     color: #fff;
     text-align: center;
     padding-top: 15%;
+
+    margin: 0 10px;
 }
 
 
@@ -264,6 +267,7 @@ section {
     margin-top: -50px;
 }
 
+#grid3d {}
 /*---- The divs ----*/
 
 

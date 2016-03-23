@@ -250,19 +250,6 @@
         margin: 10px 0 0 0;
     }
 
-/*
-    .js .ps-descr a {
-        position: absolute;
-        top: 200px;
-        right: 20px
-    }
-
-	.js .p-descr a:last-child {
-		font-size: 12px;
-		margin: -10px 0 0 0;
-	}
-
-*/
     .js .ps-slidewrapper > nav {
 		height: 130px;
         background: url(../img/pattern_stripe.png) #000;
@@ -349,158 +336,6 @@
 */
 }
 
-/*----------------------------------------------------------------*/
-/* Extra Small Devices */
-@media screen and (max-width: 601px) {
-    /*------------------------------*/
-    /*Content*/
-
-    .menu, .contents {
-        position: absolute;
-        width: 100%;
-        height: 100vh !important;
-        z-index: 100;
-    }
-
-    .v-nav {
-        height: 100vh;
-        width: 0px !important;
-        text-align: center;
-        margin: 0 auto;
-        z-index: 999;
-    }
-
-    .flex {
-        width: 60px;
-        height: 410px;
-        top:0px;
-        z-index: 999;
-        padding-left: 7px;
-
-    }
-
-    .menu-item {
-        visibility: hidden;
-        margin-left: 20px;
-    }
-    .menu-icon {
-        margin-left: 20px;
-        visibility: hidden;
-        height: 0px;
-    }
-
-    #hamburger {
-        visibility: visible;
-        height: 50px;
-        margin: 14px 20px 20px 20px;
-    }
-
-
-    .flex div {
-        width: 100%;
-        height: 60px;
-        color: #fff;
-        text-align: center;
-    }
-
-    .flex div img {
-        width: 30px;
-        margin-top: -10px;
-    }
-
-    .flex div p {
-        font-family: Raleway-SemiBold;
-        font-size: .8rem;
-    /*    font-weight: bold;*/
-    }
-
-    .contents{
-        width: 100% !important;
-        position: absolute;
-        height: 100vh;
-    }
-
- 	.js .ps-container {
-		width: 97%;
-        height: 650px !important;
-        overflow: hidden;
-        /* center-c */
-/*
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-*/
-        /* center-h */
-        left: 50%;
-        transform: translate(-50%, 0%);
-        position: absolute;
-	}
-
-    /*------------------------*/
-    /*Header*/
-
-	.js .ps-header {
-		height: 60px;
-        top: 10px;
-    }
-
-	.js .ps-header h1 {
-        height: 100%;
-        margin: 0;
-        padding: 5px 20px;
-/*
-		line-height: 0px;
-		letter-spacing: 2px;
-*/
-	}
-
-	/*Slides and Nav bar at the bottom*/
-    .js .ps-slidewrapper {
-        top: 80px;
-        height: calc(100% - 80px);
-    }
-
-    .js .ps-slides {
-        height: 350px;
-		top: 0px;
-        min-height: 350px;
-        overflow: hidden;
-	}
-
-    .js .ps-slides > div {
-        height: 350px;
-        min-height: 350px;
-        border: 0px solid #fff;
-    }
-
-    .js .ps-slidewrapper > nav {
-		height: 100px;
-        background: url(../img/pattern_stripe.png) #000;
-        z-index: 999;
-        bottom: 0px;
-	}
-
-    /*Content*/
-    .js .ps-contentwrapper {
-		top: 430px;
-		height: 380px;
-        bottom: 100px;
-        overflow: hidden
-	}
-	.js .ps-content {
-		padding: 10px;
-        height: 100%;
-	}
-
-/*
-    .js .ps-descr a {
-        position: absolute;
-        top: 240px;
-        right: 20px
-    }
-*/
-}
 
 /*----------------------------------------------------------------*/
 /* Phones */
@@ -508,61 +343,15 @@
     /*------------------------------*/
     /*Content*/
 
-    .menu-item {
-        visibility: hidden;
-        margin-left: 20px;
-    }
-    .menu-icon {
-        margin-left: 20px;
-        visibility: hidden;
-        height: 0px;
-    }
-
-    #hamburger {
-        visibility: visible;
-        height: 50px;
-        margin: 14px 20px 20px 20px;
-    }
-
-
-    .flex div {
-        width: 100%;
-        height: 60px;
-        color: #fff;
-        text-align: center;
-    }
-
-    .flex div img {
-        width: 30px;
-        margin-top: -10px;
-    }
-
-    .flex div p {
-        font-family: Raleway-SemiBold;
-        font-size: .8rem;
-    /*    font-weight: bold;*/
-    }
-
-    .contents{
-        width: 100% !important;
-        position: absolute;
-        height: 100vh;
+    .cover, #team {
+        position: relative;
     }
 
  	.js .ps-container {
 		width: 97%;
-        height: 700px !important;
-        overflow: hidden;
-        /* center-c */
-/*
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-*/
+        height: 570px !important;
+/*        overflow: hidden;*/
 
-
-        /* center-h */
         left: 50%;
         transform: translate(-50%, 0%);
         position: absolute;
@@ -574,11 +363,11 @@
 
 	.js .ps-header {
 		height: 50px;
-        top: 0px;
+        top: 10px;
 	}
 
 	.js .ps-header h1 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         height: 100%;
         margin: 0;
         padding: 5px 10px;
@@ -588,30 +377,35 @@
 */
 	}
 
+    .js .ps-slidewrapper {
+        top: 30px;
+        height: calc(82% - 30px);
+        overflow: hidden;
+    }
+
 	.js .ps-slides {
-        height: 240px;
-        min-height: 240px;
+        height: 200px;
+        min-height: 200px;
 		top: 55px;
         overflow: hidden;
 	}
 
     .js .ps-slides > div {
-        height: 240px;
-        min-height: 240px;
+        height: 200px;
+        min-height: 040px;
         width: 80%;
         border: 0px solid #fff;
-
     }
 
 	.js .ps-contentwrapper {
-		top: 290px;
-		height: 350px;
+		top: 280px;
+		height: 270px;
 /*        bottom: 100px;*/
 	}
 
 	.js .ps-content {
 		padding: 10px;
-        height: 300px;
+        height: 250px;
 	}
 
 	.js .ps-content h2 {
