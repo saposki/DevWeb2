@@ -1,72 +1,4 @@
 /*---------------------------------------------------------------*/
-#bt-menu {
-    visibility: hidden;
-}
-#hamburger {
-    visibility: hidden;
-    height: 0px;
-}
-
-.menu, .contents {
-    position: relative;
-    height: 100vh !important;
-    z-index: 100;
-    overflow: hidden;
-}
-
-.menu {
-    width: 100%;
-}
-
-.v-nav {
-    height: 100vh;
-    width: 150px !important;
-    height: 100vh;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.contents{
-    width: calc(100% - 150px) !important;
-    height: 100vh;
-}
-
-.flex {
-    width: 60px;
-    height: 410px;
-    top: 40px;
-    z-index: 999;
-}
-
-.flex div{
-    width: 60px;
-    height: 90px;
-    color: #fff;
-    text-align: center;
-    padding-top: 35%;
-}
-
-.flex div p {
-    font-family: Raleway-SemiBold;
-    font-size: .8rem;
-/*    font-weight: bold;*/
-}
-
-.flex div:hover, .flex div p:hover {
-    color: #fff;
-
-}
-
-.flex div:hover, .h-flex div:hover{
-/*    background-color:rgba(192,192,192,0.6);*/
-    border: 2px solid #fff;
-    border-radius: 2px;
-}
-
-
-.strapline {
-    font-size: 1rem !important;
-}
 
 /*------------------------------*/
 #contact-section {
@@ -84,58 +16,13 @@
 /*Everything*/
 /*------------------------------------------------------------*/
 
-/*-----------horizontal -menu--------*/
-.h-nav {
-    height: 0px;
-    width: 100% !important;
-    position: absolute;
-    visibility: hidden;
-}
-
-.h-flex {
-    width: 480px;
-    height: 70px;
-/*    padding-top: 10px;*/
-
-}
-
-.h-flex div{
-    width: 70px;
-    height: 60px;
-    color: #fff;
-    text-align: center;
-    padding-top: 15%;
-}
-
-
-.h-flex div p {
-    font-family: Raleway-SemiBold;
-    font-size: .8rem;
-/*    font-weight: bold;*/
-}
-
-.menu-icon-h img {
-   width: 40px;
-}
-
-.menu-icon-h .menu-title {
-/*        visibility: hidden;*/
-    font-size: 0rem;
-}
-
-
-.menu-item {
-/*    visibility: hidden;    */
-}
-
-/*-------------------------------------------------------------------*/
 #contact {
     width: 600px;
     height: 600px;
     position: absolute;
 
     /*center-h*/
-    top: 100px;
+    top: 0px;
     left: 43%;
     transform: translate(-50%, 0%);
 
@@ -190,31 +77,17 @@ input[type=text], input[type=password], input[type=email], input[type=url], inpu
 }
 
 #submit-button {
-    float:right;
-    width: 150px;
+    width: 200px;
     height: 45px;
-    background-color:rgba(232,122,74,.8);
+/*    background-color:rgba(232,122,74,.8); Orange*/
+    background-color:rgba(255,0,0,0.2) !important;
+    margin-top: 40px;
+    border: .5px solid #fff;
+    border-radius: 1px;
 }
 
-#github-button {
-    width: 150px;
-    height: 45px;
-    margin-left: 150px;
-
-/*    text-transform: lowercase;*/
+#submit-button:hover{
+    background-color:rgba(255,0,0,0.3) !important;
 }
 
-#github-button span{
-    position: absolute;
-    top: 5px;
-    left: 30px;
-
-}
-#github-button img{
-    position: absolute;
-    height: 20px;
-    padding-top: 2px;
-    top: 12px;
-    left: 97px
-}
 

@@ -31,78 +31,18 @@ html, body {
 
 /*--------------Menu------------------*/
 /*Team*/
-#bt-menu {
-        visibility: hidden;
-    }
 
-.menu, .contents {
-    position: relative;
-    height: 100vh !important;
-    z-index: 100;
-}
-
-.menu {
-    width: 100%;
-}
-
-.v-nav {
-    height: 100vh;
-    width: 150px !important;
-    height: 100vh;
-    text-align: center;
-    margin: 0 auto;
-}
-
+/*----------------------------*/
 .contents{
     width: calc(90% - 150px) !important;
     height: 100vh;
     left: 0 !important;
     font-size: 1rem !important;
-
 }
 
-.strapline {
-
+#team {
+    margin: 0 auto;
 }
-
-.flex {
-    width: 60px;
-    height: 410px;
-    top: 40px;
-    z-index: 999;
-}
-
-.flex div{
-    width: 60px;
-    height: 80px;
-    color: #fff;
-    text-align: center;
-    padding-top: 35%;
-}
-
-#hamburger {
-    visibility: hidden;
-    height: 0px;
-}
-
-.flex div p {
-    font-family: Raleway-SemiBold;
-    font-size: .8rem;
-/*    font-weight: bold;*/
-}
-
-.flex div:hover, .flex div p:hover {
-    color: #fff;
-
-}
-
-.flex div:hover, .h-flex div:hover{
-/*    background-color:rgba(192,192,192,0.6);*/
-    border: 2px solid #fff;
-    border-radius: 2px;
-}
-
-/*----------------------------*/
 
 .ps-container {
 	position: absolute;

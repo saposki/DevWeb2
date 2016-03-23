@@ -276,105 +276,42 @@
 /*----------------------------------------------------------------*/
  /*Small screens*/
 @media only screen and (max-width : 768px){
-    .menu, .contents {
-        position: relative;
-        width: 100%;
-        height: 100vh !important;
-        z-index: 100;
-    }
-
-    .v-nav {
-        height: 100vh;
-        width: 70px !important;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .flex {
-        width: 60px;
-        height: 410px;
-        top: 10px;
-        z-index: 999;
-        padding-left: 7px;
-
-    }
-
-    .flex div {
-        width: 100%;
-        height: 60px;
-        color: #fff;
-        text-align: center;
-
-    }
-
-    .flex div img {
-        width: 30px;
-        margin-top: -10px;
-    }
-
-    #hamburger {
-        visibility: hidden;
-        height: 0px;
-    }
-
-    .flex div p {
-        font-family: Raleway-SemiBold;
-        font-size: .8rem;
-    /*    font-weight: bold;*/
-    }
-
-    .contents {
-        width: calc(100% - 70px) !important;
-        height: 100vh;
-    }
-
 
     .js .ps-container {
-		width: 85%;
+		width: 95%;
         overflow: hidden;
-        /* center-c */
-/*
-        top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-*/
-
-
-        /* center-h */
-        left: 45%;
-        transform: translate(-50%, 0%);
         position: absolute;
 	}
+
+    /*-- Horizontal Menu-- */
+
 
     /*------------------------*/
     /*Header*/
 
 	.js .ps-header {
-		height: 60px;
-        top: 10px;
+		height: 50px;
+        top: 90px;
     }
 
 	.js .ps-header h1 {
         height: 100%;
         margin: 0;
         padding: 5px 20px;
-/*
-		line-height: 0px;
-		letter-spacing: 2px;
-*/
+
 	}
 
 	/*Slides and Nav bar at the bottom*/
     .js .ps-slidewrapper {
-        top: 80px;
-        height: calc(100% - 80px);
+        top: 120px;
+        height: calc(100% - 120px);
     }
 
     .js .ps-slides {
-        height: 350px;
-		top: 0px;
-        min-height: 350px;
+        height: 330px;
+		top: 30px;
+        min-height: 330px;
         overflow: hidden;
 	}
 
@@ -393,8 +330,8 @@
 
     /*Content*/
     .js .ps-contentwrapper {
-		top: 430px;
-		height: 380px;
+		top: 470px;
+		height: 330px;
         bottom: 100px;
         overflow: hidden
 	}

@@ -156,156 +156,11 @@ header {
 
 }
 
-/*------------------------------------------------------------------*/
-/*-----------vertical -menu--------*/
-
-.menu, .home-content {
-    position: relative;
-    height: 100vh;
-}
-
-.menu, v-nav {
-    width: 150px !important;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.home-content {
-    width: calc(100% - 150px) !important;
-}
-
-.flex {
-    width: 60px;
-    height: 410px;
-    top: 40px;
-    z-index: 1005;
-}
-
-.flex div {
-    width: 60px;
-    height: 80px;
-    color: #fff;
-    text-align: center;
-    padding-top: 35%;
-    margin: 0 auto;
-}
-
-.flex div p {
-    font-family: Raleway-SemiBold;
-    font-size: .8rem;
-/*    font-weight: bold;*/
-}
-
-.menu-title {
-    visibility: hidden;
-    font-size: 1.3rem;
-    margin-top: 3px;
-    width: 0px;
-}
-
-.menu-item {
-/*    visibility: hidden;    */
-}
-
-.menu-item p{
-
-}
-
-#hamburger {
-    visibility: hidden;
-    height: 0px;
-}
-
-.flex div:hover, .flex div p:hover {
-    color: #fff;
-
-}
-
-.flex div:hover, .h-flex div:hover{
-/*    background-color:rgba(192,192,192,0.6);*/
-    border: 2px solid #fff;
-    border-radius: 2px;
-}
-
-/*
-.menu-item:hover {
-    background-color: #555 !important;
-     background-color:rgba(192,192,192,0.6)
-}
-*/
-
-/*
-.menu-item.home:hover {
-    background-color: teal !important;
-}
-
-.menu-item.portfolio:hover {
-    background-color: #F0414C !important;
-}
-
-.menu-item.team:hover {
-    background-color: aliceblue !important;
-}
-
-.menu-item.contact:hover {
-    background-color: #E87A4A !important;
-}
-*/
-
-
-
-/*------------------------------------------------------------*/
-/*-----------horizontal - menu--------*/
-
-.h-nav {
-    height: 70px;
-    width: 100% !important;
-    position: absolute;
-    top:70px;
-    visibility: hidden;
-}
-
-.h-flex {
-    width: 500px;
-    height: 70px;
-/*    padding-top: 10px;*/
-
-}
-
-.h-flex div{
-    width: 80px;
-    height: 80px;
-    color: #fff;
-    text-align: center;
-    padding-top: 15%;
-}
-
-
-.h-flex div p {
-    font-family: Raleway-SemiBold;
-    font-size: .8rem;
-/*    font-weight: bold;*/
-}
-
-.menu-icon-h img {
-   width: 40px;
-
-}
-
-.menu-icon-h .menu-title {
-    visibility: hidden;
-    font-size: 0rem;
-}
-
-.flex  div:hover, .flex  div p:hover {
-    color: #fff;
-}
-
 /*-------------------------------------------------------------------*/
 .home-descr {
     height: 500px;
     width: 700px !important;
-    top: 150px;
+    top: 70px;
     position: absolute;
     left: 45%;
     transform: translate(-50%, 0%);
@@ -363,7 +218,7 @@ header {
     box-shadow: 0 0 3px #398583;
     text-shadow: 0 0 2px #fff;
     color: teal;
-    border: 3px solid #398583;
+    border: 1px solid #398583;
 }
 
 .btntour{

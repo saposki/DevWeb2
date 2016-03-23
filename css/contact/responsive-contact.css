@@ -19,62 +19,18 @@
 /*Medium screens*/
 @media only screen and (max-width : 992px){
 
-    .menu, .contents {
-        position: relative;
-        height: 100vh !important;
-        z-index: 100;
-    }
-
-    .menu {
-        width: 100%;
-    }
-
-    .v-nav {
-        height: 100vh;
-        width: 150px !important;
-        height: 100vh;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .contents{
-        width: calc(100% - 150px) !important;
-        height: 100vh;
-    }
-
     #contact {
         width: 600px;
         height: 600px;
         position: absolute;
-        left: 40%;
+        left: 45%;
         transform: translate(-50%, 0%);
+        top: 90px;
     }
 
     .drop-line {
         font-size: 25px;
         height: 50px;
-    }
-
-
-    #bt-menu {
-    visibility: hidden;
-    }
-
-    #hamburger {
-        visibility: hidden;
-        height: 0px;
-    }
-
-
-
-    .flex div p {
-        font-family: Raleway-SemiBold;
-        font-size: .8rem;
-    /*    font-weight: bold;*/
-    }
-
-    .strapline {
-        font-size: 1rem !important;
     }
 
     /*------------------------------*/
@@ -89,6 +45,17 @@
         height: 100vh;
         width: 100%;
     }
+
+    .buttons {
+    margin: 40px 0 30px 0;
+    }
+
+    #submit-button {
+        width: 250px;
+        height: 40px;
+        background-color:rgba(232,122,74,.8);
+        font-size: .9rem;
+    }
 }
 
 
@@ -96,19 +63,7 @@
 /*Medium screens*/
 @media only screen and (max-width : 769px){
 
-    .v-nav, .menu {
-        width: 0px !important;
-        visibility: hidden;
-    }
-
-    .contents{
-        width: 100% !important;
-        position: absolute;
-        height: 100vh;
-
-    }
-
-    /*----------------------------------*/
+       /*----------------------------------*/
     #contact {
         width: 90%;
         top: 100px;
@@ -128,46 +83,7 @@
 
     .h-nav, .contact-logo, .drop-line, .form-area {
         position: relative;
-
-}
-    .h-nav {
-        height: 70px !important;
-        width: 480px !important;
-        visibility: visible;
-        top: -40px;
-        margin-bottom: 20px;
     }
-
-    .h-flex {
-        width: 100%;
-        height: 70px;
-    /*    padding-top: 10px;*/
-
-    }
-
-    .h-flex div{
-        width: 70px;
-        height: 80px;
-        color: #fff;
-        text-align: center;
-        padding-top: 25%;
-    }
-
-    .h-flex div p {
-        font-family: Raleway-SemiBold;
-        font-size: .8rem;
-    /*    font-weight: bold;*/
-    }
-
-    .menu-icon-h img {
-       width: 40px;
-    }
-
-    .menu-icon-h .menu-title {
-    /*        visibility: hidden;*/
-        font-size: 0rem;
-    }
-
 
     .menu-item {
     /*    visibility: hidden;    */
@@ -181,6 +97,7 @@
     .drop-line {
         font-size: 1.5rem;
         height: 30px;
+        margin: 50px 0 50px 0;
     }
 
 
@@ -202,60 +119,18 @@
     }
 
     #submit-button {
-        float:right;
-        width: 100px;
+        width: 200px;
         height: 35px;
         background-color:rgba(232,122,74,.8);
         font-size: .8rem;
     }
 
-    #github-button {
-        width: 100px;
-        height: 35px;
-        margin-left: 30px;
-        font-size: .8rem;
-
-    /*    text-transform: lowercase;*/
-    }
-
-    #github-button span{
-        position: absolute;
-        top:0px;
-        left: 13px;
-
-    }
-    #github-button img{
-        position: absolute;
-        height: 20px;
-        padding-top: 2px;
-        top: 7px;
-        left: 66px
-    }
-
-    .contact-logo img {
-        width: 80px;
-        height: 50px;
-    }
 }
 
 /*---------------------------------------------------------------*/
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
-    #hamburger {
-        visibility: visible;
-        margin: 20px;
-    }
-
-    .flex{
-        top: 0;
-    }
-
-    #hamburger img {
-        width: 50%
-    }
-
 
     #contact {
         width: 100%;
