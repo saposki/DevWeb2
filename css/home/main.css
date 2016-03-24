@@ -136,24 +136,25 @@ hr {
 body {
     color: #555;
     width: 100%;
-/*    overflow-y: scroll;*/
     height: 100vh;
-/*    min-height: 800px;*/
     background: url(../img/pattern_stripe.png);
     z-index: 0;
 
 }
 
-header {
-    height: 100vh;
+/*Hamburger*/
+.top-menu{
+    height:50px;
+}
+.ham-menu {
+    visibility:
 }
 
-.cover{
+.cover {
     width: 100%;
-    height: 100%;
+    height: calc(100% - 50px);
 /*    min-height: 800px;*/
     z-index: 10;
-
 }
 
 /*-------------------------------------------------------------------*/
@@ -428,8 +429,6 @@ header {
     50% { border-color: black }
 }
 
-body { font-family: Consolas, monospace; }
-
 h1 { 
     font-size:150%;
     width:16.3em;
@@ -490,8 +489,6 @@ h1 {
 .about div, .what_we_do div {
     position: relative;
 }
-
-.about h4 {}
 
 .title-underline {
     width: 100%;

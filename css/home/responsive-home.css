@@ -198,6 +198,61 @@
         color: teal;
         border: 3px solid #398583;
     }
+
+
+    /*-----------------------------------------*/
+    /* Page 2*/
+
+    #about-us {
+        margin: 0 auto;
+        padding: 0;
+        height: calc(100% - 60px);
+        width: 100%;
+        background-color: #fff;
+        position: relative;
+    }
+
+    #about-us h5 {
+        color: #000;
+    }
+
+    #page2-about, #page2-what-we-do {
+        height: 300px;
+        width: 100%;
+        position: relative;
+    }
+    #page2-about {
+        margin-top: 40px;
+    }
+    #page2-what-we-do {
+        margin-top: -20px;
+
+    }
+    .about, .what_we_do {
+        width: 80%;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .about div, .what_we_do div {
+        position: relative;
+    }
+
+    .title-underline {
+        width: 100%;
+        height: 1px;
+    }
+
+    .about-content, .what_we_do_content {
+        width: 100%;
+        font-size: 1rem;
+        color:dimgrey;
+        line-height: 1.5rem;
+        text-align: justify;
+        padding: 20px;
+    }
+
 }
 
 /*----------------------------------------------------------------*/
@@ -292,6 +347,64 @@
         font-family: Raleway-SemiBold;
         font-size: .75rem;
     /*    font-weight: bold;*/
+    }
+
+    /*-----------------------------------------*/
+    /* Page 2*/
+    #page2-what-we-do {
+        margin-top: 20px;
+
+    }
+
+    /*---------------*/
+    /*Footer*/
+
+    #footer {
+        height: 60px;
+        color: #fff;
+        background: #555;
+        bottom: 0;
+    }
+
+    .copyright, .social {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .copyright{
+        font-size: .9rem;
+        position: relative;
+    }
+
+    .copy {
+        width: 150px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+
+    }
+
+    .flex-div {
+        width: auto;
+        height: auto;
+        display: inline-flex;
+        margin-top: 0px;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
+    .flex-div div {
+        width: 30px;
+    }
+
+    .flex-div div img {
+        width: 25px;
+
     }
 
 }
@@ -395,4 +508,81 @@
       border: 2px solid #8DC79E;
     }
 
+    /*----------------------------------------------------------*/
+    /* Page 2*/
+
+    #about-us {
+        margin: 0 auto;
+        padding: 0;
+        height: calc(100% - 60px);
+        width: 100%;
+        background-color: #fff;
+        position: relative;
+    }
+
+    #about-us h5 {
+        color: #000;
+    }
+
+    #page2-about, #page2-what-we-do {
+        height: 300px;
+        width: 100%;
+        position: relative;
+    }
+
+    .about, .what_we_do {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+
+        top: 50%;
+        left: 53%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
+    .about div, .what_we_do div {
+        position: relative;
+    }
+
+    .title-underline {
+        width: 100%;
+        height: 1px;
+    }
+
+    .about-content, .what_we_do_content {
+        width: 100%;
+        font-size: .9rem;
+        color:dimgrey;
+        line-height: 1.3rem;
+        text-align: justify;
+        padding: 20px;
+    }
+
+    /*---------------*/
+    /*Footer*/
+
+    .copyright{
+        font-size: .8rem;
+        position: relative;
+    }
+
+    .copy {
+        width: 140px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
+
+    .flex-div div {
+        width: 25px;
+    }
+
+    .flex-div div img {
+        width: 20px;
+
+    }
 }

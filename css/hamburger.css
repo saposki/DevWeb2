@@ -1,0 +1,100 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    background: #1d1f20;
+}
+
+.hamburger{
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 45px;
+  padding: 0px 15px 0px 15px;
+  color: #fff;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.cross {
+  background: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  padding: 0px 15px 0px 15px;
+  color: #fff;
+  border: 0;
+  font-size: 3em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.menu {
+  z-index: 1000000;
+  font-weight: bold;
+  font-size: 0.9em;
+  width: 100%;
+/*  background: #DB4C3F;*/
+  background-color: #fff;
+  position: absolute;
+  text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.menu li {
+    display: block;
+    padding:;
+    border-bottom: darkgray 1px solid;
+}
+.menu li:hover {
+    display: block;
+    background: #9C372D;
+    padding: 1em 0 1em 0;
+    transition: ease 0.6s;
+    border-bottom: aliceblue 1px solid;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  margin: 0px;
+  color: #fff;
+}
+.menu li a {
+    display: block;
+    padding: 20px 0 20px 0;
+}
+.menu ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+transition: ease 0.4s;
+
+}
+.menu a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+    transition: ease 0.5s
+}
+
+.glyphicon-home {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin: 0 auto;
+}

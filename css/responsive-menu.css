@@ -12,22 +12,29 @@
 /*----------------------------------------------------------------*/
 /*@media only screen and (max-width : 1279px) {*/
 @media only screen and (max-width : 1800px) {
-    #bt-menu {
+    /*Hamburger*/
+    .top-menu{
+        height:0px;
+    }
+
+    .ham-menu {
         visibility: hidden;
     }
 
-    #hamburger {
-        visibility: hidden;
-        height: 0px;
+    .cover {
+        width: 100%;
+        height: calc(100% - 0px);
+        z-index: 10;
     }
+
 
     /*-----------vertical -menu--------*/
-    .menu, .home-content, .contents {
+    .v-nav, .home-content, .contents {
         position: relative;
         height: 100vh;
     }
 
-    .menu, v-nav {
+    .v-nav {
         width: 150px !important;
         text-align: center;
         margin: 0 auto;
@@ -152,12 +159,12 @@
 
 
     /*-----------veritcal -menu--------*/
-    .menu, .home-content, .contents  {
+    .v-nav, .home-content, .contents  {
         position: relative;
         height: 100vh !important;
     }
 
-    .menu, .v-nav {
+    .v-nav {
         width: 100px !important;
         height: 100vh;
         text-align: center;
@@ -217,7 +224,7 @@
     }
 
 /*-----------vertical -menu--------*/
-    .menu {
+    .v-nav {
         width: 0px !important;
         height: 100vh;
         text-align: center;
@@ -225,7 +232,7 @@
         visibility: hidden;
     }
 
-    .v-menu, .v-nav {
+    .v-nav {
         visibility: hidden;
     }
 
@@ -334,11 +341,45 @@
 /*----------------------------------------------------------------*/
 @media only screen and (max-width : 480px) {
 
-    .menu {
+    /*-------------------------------*/
+     /*Hamburger*/
+    .top-menu{
+        height:50px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+    }
+
+    .page-content {
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
+
+    .ham-menu {
+        visibility:visible;
+    }
+
+    .cover {
+        width: 100%;
+        height: calc(100% - 50px);
+        z-index: 10;
+    }
+
+    /*-------------------------------*/
+    .v-nav {
         width: 0px !important;
         height: 100vh;
         text-align: center;
         margin: 0 auto;
+
+    }
+
+    .home-content {
+        position: absolute;
+        width: 100% !important;
+        left: 0%;
 
     }
 

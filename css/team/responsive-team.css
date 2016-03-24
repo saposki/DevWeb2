@@ -343,18 +343,26 @@
     /*------------------------------*/
     /*Content*/
 
+    html, body, #all {
+        max-height: 650px;
+        min-height: 650px !important;
+    }
+
     .cover, #team {
         position: relative;
+        max-height: 650px;
+        overflow: hidden;
+        min-height: 0px !important;
     }
 
  	.js .ps-container {
 		width: 97%;
-        height: 570px !important;
-/*        overflow: hidden;*/
+        max-height: 650px !important;
 
         left: 50%;
         transform: translate(-50%, 0%);
         position: absolute;
+
 	}
 
 	.js .ps-container > div {
@@ -363,7 +371,7 @@
 
 	.js .ps-header {
 		height: 50px;
-        top: 10px;
+        top: 0px;
 	}
 
 	.js .ps-header h1 {
@@ -378,50 +386,49 @@
 	}
 
     .js .ps-slidewrapper {
-        top: 30px;
-        height: calc(82% - 30px);
+        top: 0px;
+/*        height: calc(77% - 25px);*/
+        height: 650px !important;
         overflow: hidden;
     }
 
 	.js .ps-slides {
-        height: 200px;
-        min-height: 200px;
+        height: 180px;
+        min-height: 180px;
 		top: 55px;
         overflow: hidden;
 	}
 
     .js .ps-slides > div {
-        height: 200px;
-        min-height: 040px;
+        height: 180px;
+        min-height: 180px;
         width: 80%;
         border: 0px solid #fff;
     }
 
 	.js .ps-contentwrapper {
-		top: 280px;
-		height: 270px;
+		top: 230px;
+		height: 280px;
 /*        bottom: 100px;*/
 	}
 
 	.js .ps-content {
-		padding: 10px;
-        height: 250px;
+		padding: 5px;
+        height: 230px;
+        line-height: 1rem;
 	}
 
 	.js .ps-content h2 {
-		border-right: none;
-		font-size: 18px;
-		margin: 10px 0;
+		border: none;
+		font-size: 1rem;
+/*		margin: 10px 0 5px 0;*/
 		padding-top: 0;
 	}
 
 	.js .ps-content span.ps-price {
-		font-size: 3rem;
-		width: 50px;
-		height: 50px;
-		line-height: 50px;
-		font-weight: 700;
-        margin-top: 50px;
+        height: 0;
+        width: 0;
+        visibility: hidden
 	}
 
 	.js .ps-content p {
@@ -429,23 +436,20 @@
 		border: none;
 		padding: 5px 10px;
 		height: 210px;
-        	}
+    }
+
+    .js .ps-content .p-descr {
+		line-height: .7rem;
+		border: none;
+		padding: 3px 3px;
+		height: 210px;
+    }
 
     .js .ps-descr {
-        margin-top: 20px;
+        margin-top: -10px;
         height: 200px;
+        padding: 3px;
     }
-
-/*
-    .js .ps-descr a {
-        position: absolute;
-        top: 280px;
-        right: 30px;
-        width: 120px;
-        font-size: .8rem;
-        text-align: center;
-    }
-*/
 
     .js .p-content h2 {
         font-size: .9rem;
@@ -458,14 +462,9 @@
     .js .p-descr {
         margin: 10px 0 0 0;
         padding: 5px;
-        overflow: scroll;
         font-size: .8rem;
-    }
+        line-height: 5px !important;
 
-    .js .p-descr p {
-        height: 250px;
-        overflow: scroll;
-        font-size: .8rem;
     }
 
 	.js .p-descr a:last-child {
@@ -473,10 +472,30 @@
 		margin: -10px 0 0 0;
 	}
 
-    .js .ps-slidewrapper > nav {
-        bottom: 0;
+    .flex-div {
 
+    }
+
+    .js .ps-slidewrapper > nav {
+        top: 460px;
+        height: 90px
 	}
 
+    js .ps-slidewrapper > nav > a:after {
+        content: '';
+        position: absolute;
+        width: 70px !important;
+        height: 70px !important;
+        top: 50%;
+        left: 50%;
+        margin: -20px 0 0 -50px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        border-left: 1px solid #fff;
+        border-top: 1px solid #fff;
+    }
 
 }

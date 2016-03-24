@@ -336,32 +336,32 @@ html, body {
 
 #chencha-photo {
     background-image:url(/img/Chencha.jpg);
-/*    background-color: rgba(2, 132, 130, 0.5)*/
+    background-color: rgba(2, 132, 130, 0.5)
 }
 
 #andi-photo {
     background-image:url(/img/Andi.jpg);
-/*    background-color:rgba(255,255,0,0.3)*/
+    background-color:rgba(255,255,0,0.3)
 }
 
 #wanjugu-photo {
     background-image:url(/img/wanjugu.jpg);
-/*    background-color:rgba(255,0,0,0.3)*/
+    background-color:rgba(255,0,0,0.3)
 }
 
 #beverly-photo {
     background-image:url(/img/Beverly.jpg);
-/*    background-color:rgba(2, 132, 130, 0.5);*/
+    background-color:rgba(2, 132, 130, 0.5);
 }
 
 #ben-photo {
     background-image:url(/img/Ben.jpg);
-/*    background-color:rgba(232, 122, 74, 0.3);*/
+    background-color:rgba(232, 122, 74, 0.3);
 }
 
 #vc-photo {
     background-image:url(/img/VC.jpg);
-/*    background-color:rgba(255,255,0,0.3)*/
+    background-color:rgba(255,255,0,0.3)
 }
 
 .team-photo {
