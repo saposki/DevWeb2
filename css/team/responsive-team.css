@@ -13,14 +13,10 @@
         visibility: hidden;
     }
 
-    .menu, .contents {
+    .v-nav, .contents {
         position: relative;
         height: 100vh !important;
         z-index: 100;
-    }
-
-    .menu {
-        width: 100%;
     }
 
     .v-nav {
@@ -78,7 +74,7 @@
         height: 100vh;
     }
 
-    .menu, .contents {
+    .v-nav, .contents {
         position: relative;
         width: 100%;
         height: 100vh !important;
@@ -110,20 +106,6 @@
 
       #all {
         width: 100%;
-    }
-
-    .menu, .contents {
-        position: relative;
-        width: 100%;
-        height: 100vh !important;
-        z-index: 100;
-    }
-
-    .v-nav {
-        height: 100vh;
-        width: 100px !important;
-        text-align: center;
-        margin: 0 auto;
     }
 
     .contents{

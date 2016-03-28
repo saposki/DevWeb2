@@ -21,6 +21,8 @@
         visibility: hidden;
     }
 
+    .
+
     .cover {
         width: 100%;
         height: calc(100% - 0px);
@@ -390,16 +392,6 @@
 
     .flex{
         top: 0;
-    }
-
-    #hamburger {
-        visibility: visible;
-        height: 100%;
-        margin: -20px 20px;
-    }
-
-    #hamburger img {
-        width: 50%
     }
 
 }

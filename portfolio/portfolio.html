@@ -16,23 +16,39 @@
     <link rel="stylesheet" href="css/responsive-portfolio.css"/>
     <link rel="stylesheet" href="css/fa/css/font-awesome.css">
     <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="/css/hamburger.css">
 
      <!-- Scripts -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/mcust.js"></script>
-    <script src="js/toucheffects.js"></script>
-    <script src="js/wow.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/modernizr.custom.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="/js/mcust.js"></script>
+    <script src="/js/toucheffects.js"></script>
+    <script src="/js/wow.js"></script>
 </head>
 
 <!----------------------------------------------------------------->
 <body>
-    <div class="container">
-    <!--<div class="cover row x_bg descr strapline col s12 m12 l12">-->
-    <!--    <div class="descr strapline col s12 m12 l12">            -->
 
-        <!-------------------------------------------------------->
+    <!---- Hamburger Menu ---->
+    <div class="top-menu col s12 m12 l12">
+        <header class="ham-menu">
+           <button class="hamburger">&#9776</button>
+           <button class="cross">&#735</button>
+        </header>
+
+        <div class="menu ">
+           <ul>
+              <li><a href="/index.html" class="H">HOME</a></li>
+              <li><a href="portfolio.html" class="P">PORTFOLIO</a></li>
+              <li><a href="/team.html" class="T">TEAM</a></li>
+              <li><a href="/contact.html" class="C">CONTACT US</a></li>
+           </ul>
+        </div>
+    </div>
+
+    <!-------------------------------------------------------->
+    <div class="container">
         <!--Headings-->
         <header class="codrops-header">
 
@@ -41,11 +57,6 @@
 
                 <!--Vertical Navigation-->
                 <div class="flex center-h">
-                    <a href="#">
-                        <div id="hamburger">
-                            <img src="/img/menu32.png">
-                        </div>
-                    </a>
 
                      <!--home-->
                      <a href="/index.html">
@@ -333,10 +344,14 @@
 <!----------------------------------------------------------------->
     <!----------- Scripts --------->
 
+
+
     <!-- pop-up animation -->
     <script src="js/classie.js"></script>
     <script src="js/helper.js"></script>
     <script src="js/grid3d.js"></script>
+
+
     <script>
         new grid3D( document.getElementById( 'grid3d' ) );
     </script>
@@ -367,6 +382,9 @@
   </script>
 -->
 
+    <!---- Hamburger -->
+    <script src="/js/script.js"></script>
+<!----------------------------------------------------------------->
 
 </body>
 </html>

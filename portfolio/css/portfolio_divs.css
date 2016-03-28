@@ -32,7 +32,7 @@ html, body {
 
 }
 
-h1, h2, h3, h4, a {
+h1, h2, h3, h4 {
     color: #636;
     font-family: SlimJoe;
 }
@@ -40,18 +40,50 @@ h1, h2, h3, h4, a {
 .container {
     height: 100%;
     width: 90% !important;
+/*    position: absolute;*/
+    top: 0px;
+    padding: 0;
+    margin: 0 auto;
 }
 
 /**-----------------------------------------------------**/
-
-#whole {
+/*Hamburger*/
+.top-menu {
+    height:50px;
+    padding: 0;
+    margin: 0 auto;
     width: 100%;
-    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 10000000;
+}
+
+.menu {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.top-menu {
+    height:50px;
+}
+
+.ham-menu {
+
 }
 
 .cover {
-
+    width: 100%;
+    height: calc(100% - 50px);
+/*    min-height: 800px;*/
+    z-index: 10;
 }
+
 
 /*------------------------------------------------------------------*/
 /*-----------vertical -menu--------*/
@@ -61,38 +93,14 @@ h1, h2, h3, h4, a {
     height: 100vh;
 }
 
-.menu, .contents {
-    position: relative;
-    width: 100%;
-    height: 100vh !important;
-    z-index: 100;
-}
-
-.v-nav {
-    height: 100vh;
-    width: 150px !important;
-    height: 100vh;
-    text-align: center;
-    margin: 0 auto;
-
-}
-
-.contents{
-    width: calc(100% - 150px) !important;
-    height: 100vh;
-    left: -5%;
-    padding: 0 !important!;
-}
-
 .flex {
     width: 70px;
     height: 410px;
     top: 0px;
+    left: 5%;
     z-index: 100;
 
-
     position: absolute;
-    left: 5%;
 }
 
 .flex div{
@@ -100,7 +108,7 @@ h1, h2, h3, h4, a {
     height: 80px;
     color: #fff;
     text-align: center;
-    padding-top: 35%;
+    padding-top: 20%;
     margin: 10px;
 }
 
@@ -131,7 +139,7 @@ h1, h2, h3, h4, a {
 
 .flex div:hover{
 /*    background-color:rgba(192,192,192,0.6);*/
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 2px;
 }
 

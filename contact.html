@@ -19,18 +19,38 @@
     <link rel="stylesheet" type="text/css" href="css/contact/contact.css">
     <link rel="stylesheet" type="text/css" href="css/contact/responsive-contact.css">
     <link rel="stylesheet" href="css/responsive-menu.css">
+    <link rel="stylesheet" href="css/hamburger.css">
 
     <!-- Scripts -->
     <script src="js/custom.js"></script>
     <script src="js/modernizr.custom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 </head>
 
 <!-------------------------------------------------------------------------->
 <body>
-<div id="contact-section">
-    <header class="codrops-header">
 
+<!---- Hamburger Menu ---->
+<div class="top-menu col s12 m12 l12">
+    <header class="ham-menu">
+       <button class="hamburger">&#9776</button>
+       <button class="cross">&#735</button>
+    </header>
+
+    <div class="menu ">
+       <ul>
+          <li><a href="index.html" class="H">HOME</a></li>
+          <li><a href="portfolio/portfolio.html" class="P">PORTFOLIO</a></li>
+          <li><a href="team.html" class="T">TEAM</a></li>
+          <li><a href="contact.html" class="C">CONTACT US</a></li>
+       </ul>
+    </div>
+</div>
+
+<!----------------------------------------------------------->
+
+<header id="contact-section" class="codrops-header page-content">
     <!----------------------------------->
     <div id="cover" class="cover col s12 m12 l12 black-overlay">
 
@@ -38,11 +58,8 @@
         <!----------------------------------->
             <!--Vertical Navigation-->
 
-            <div class="col s0 m2 l2 menu v-nav">
+            <div class="col s0 m2 l2 v-nav">
                 <div class="flex center-h">
-                    <div id="hamburger">
-                        <img src="images/menu32.png">
-                    </div>
 
                      <!--home-->
                      <a href="index.html">
@@ -192,6 +209,8 @@
 
 <!----------------------------------------------------------------->
     <!--- Scripts -->
+    <!-- Hamburger Menu -->
+    <script src="js/script.js"></script>
 
     <!--Vegas-->
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -219,6 +238,5 @@
     <script src="js/borderMenu.js"></script>
 
 <!----------------------------------------------------------------->
-</div> <!--contact section end -->
 </body>
 </html>

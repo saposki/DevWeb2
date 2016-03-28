@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/team/maxoutpage.css">
     <link rel="stylesheet" href="css/team/responsive-team.css">
     <link rel="stylesheet" href="css/responsive-menu.css">
+    <link rel="stylesheet" href="css/hamburger.css">
 
     <!--Scripts -->
     <script src="js/jquery.min.js"></script>
@@ -38,27 +39,29 @@
 </head>
 <!---------------------------------------------------------------->
 
-<!--
-    <script>
 
-    jQuery(document).ready(function ($) {
-    $(window).load(function () {
-        setTimeout(function(){
-            $('.se-pre').fadeOut('slow', function () {
-            });
-        },1000);
-
-    });
-});
-    </script>
-    <div class="se-pre"></div>
--->
-<!---------------------------------------------------------------->
-
-<!----------------------------------------------------------------->
 <body>
 
-<header class="codrops-header">
+<!---- Hamburger Menu ---->
+<div class="top-menu col s12 m12 l12">
+    <header class="ham-menu">
+       <button class="hamburger">&#9776</button>
+       <button class="cross">&#735</button>
+    </header>
+
+    <div class="menu ">
+       <ul>
+          <li><a href="index.html" class="H">HOME</a></li>
+          <li><a href="portfolio/portfolio.html" class="P">PORTFOLIO</a></li>
+          <li><a href="team.html" class="T">TEAM</a></li>
+          <li><a href="contact.html" class="C">CONTACT US</a></li>
+       </ul>
+    </div>
+</div>
+
+<!----------------------------------------------------------------->
+<!---- Page Content ---->
+<header class="page-content codrops-header">
 
     <div id="all" class="cover col s12 m12 l12">
 
@@ -363,6 +366,10 @@
 
 <!----------------------------------------------------------------->
 <!-- Scripts -->
+
+    <!-- Hamburger Menu -->
+    <script src="js/script.js"></script>
+
     <!-- jQuery if needed -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/slider.js"></script>
