@@ -150,7 +150,7 @@ body {
 }
 /*Hamburger*/
 .top-menu{
-    height:50px;
+    height: 50px;
 }
 
 .ham-menu {
@@ -459,6 +459,9 @@ h1 {
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    background: url(overlays/02.png);
+/*    background: url(overlays/06.png) #fff;*/
+
 }
 /*---------------*/
 /*about us*/
@@ -468,7 +471,7 @@ h1 {
 /*    height: calc(100% - 60px);*/
     height: 650px;
     width: 100%;
-/*    background-color: #fff;*/
+
     position: relative;
 }
 
@@ -485,7 +488,7 @@ h1 {
     margin-top: 40px;
 }
 #page2-what-we-do {
-    margin-top: -40px;
+    margin-top: -20px;
 
 }
 .about, .what_we_do {
@@ -507,7 +510,8 @@ h1 {
 .about-content, .what_we_do_content {
     width: 80%;
     font-size: 1rem;
-    color:dimgrey;
+/*    color: #d3d3d3;*/
+    color: #b3b3b3;
     line-height: 1.5rem;
     text-align: justify;
     padding: 20px;

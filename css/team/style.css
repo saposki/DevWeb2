@@ -114,7 +114,7 @@ html, body {
 	background: url(../img/pattern_stripe.png) #000;
 	width: 100%;
 	height: auto;
-	padding: 30px 50px 50px 10px;
+	padding: 30px 50px 10px 10px;
     color:darkgrey;
 }
 
@@ -132,7 +132,7 @@ html, body {
 }
 
 .ps-descr {
-    height: 450px;
+    height: 430px;
     margin-top: 60px;
     padding: 10px 10px 100px 10px;
     border-left: 1px solid #f2f2f2;
@@ -193,7 +193,7 @@ html, body {
 
 .p-descr {
     font-family: Raleway-Regular;
-    font-size: 1rem;
+    font-size: .9rem;
     letter-spacing: -.2px;
     word-spacing: .2rem;
     margin: 20px 0 0 0;
@@ -336,32 +336,33 @@ html, body {
 
 #chencha-photo {
     background-image:url(/img/Chencha.jpg);
-    background-color: rgba(2, 132, 130, 0.5)
+/*    background-color: rgba(2, 132, 130, 0.5)*/
 }
 
 #andi-photo {
     background-image:url(/img/Andi.jpg);
-    background-color:rgba(255,255,0,0.3)
+/*    background-color:rgba(255,255,0,0.3)*/
 }
 
 #wanjugu-photo {
     background-image:url(/img/wanjugu.jpg);
-    background-color:rgba(255,0,0,0.3)
+/*    background-color:rgba(255,0,0,0.3)*/
 }
 
 #beverly-photo {
     background-image:url(/img/Beverly.jpg);
-    background-color:rgba(2, 132, 130, 0.5);
+/*    background-color:rgba(2, 132, 130, 0.5);*/
 }
 
 #ben-photo {
     background-image:url(/img/Ben.jpg);
-    background-color:rgba(232, 122, 74, 0.3);
+/*    background-color:rgba(232, 122, 74, 0.3);*/
 }
 
 #vc-photo {
     background-image:url(/img/VC.jpg);
-    background-color:rgba(255,255,0,0.3)
+/*    background-color:rgba(255,255,0,0.3)*/
+
 }
 
 .team-photo {

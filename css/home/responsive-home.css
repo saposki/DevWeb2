@@ -247,7 +247,6 @@
     .about-content, .what_we_do_content {
         width: 100%;
         font-size: 1rem;
-        color:dimgrey;
         line-height: 1.5rem;
         text-align: justify;
         padding: 20px;
@@ -413,6 +412,16 @@
 /* Phones */
 @media only screen and (max-width : 480px) {
 
+    .wrapper {
+        height: auto;
+        width: 100% !important;
+    }
+
+    #whole {
+        height: 100vh !important;
+    }
+
+
     /*-----------the content--------*/
     .home-content {
         width: 100% !important;
@@ -504,8 +513,7 @@
         padding: 0;
         height: auto;
         width: 100%;
-        background-color: #fff;
-        position: relative;
+           position: relative;
     }
 
     #about-us h5 {
@@ -542,7 +550,6 @@
     .about-content, .what_we_do_content {
         width: 100%;
         font-size: .9rem;
-        color:dimgrey;
         line-height: 1.3rem;
         text-align: justify;
         padding: 20px;
@@ -551,26 +558,48 @@
     /*---------------*/
     /*Footer*/
 
+    #footer {
+        height: 70px;
+    }
+
     .copyright{
         font-size: .8rem;
-        position: relative;
+        position: absolute;
+        width: 0px !important;
+    }
+
+    .social {
+        width: 100% !important;
+        position: absolute;
     }
 
     .copy {
         width: 140px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         position: absolute;
+
+        top: 70%;
+        left: 0%;
+        transform: translate(90%, -50%);
+
     }
 
 
+    .flex-div {
+        top: 40%;
+    }
+
     .flex-div div {
         width: 25px;
+        margin: 0;
+
     }
 
     .flex-div div img {
         width: 20px;
 
+    }
+
+    .title-underline {
+        visibility: hidden;
     }
 }

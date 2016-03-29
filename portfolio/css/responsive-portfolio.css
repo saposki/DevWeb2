@@ -501,7 +501,9 @@
         height: 100%;
     }
 
-    .menu {}
+    .hamburger {
+        visibility: visible;
+    }
 
         /*------------------------------*/
     /*Content*/

@@ -20,9 +20,6 @@
     .ham-menu {
         visibility: hidden;
     }
-
-    .
-
     .cover {
         width: 100%;
         height: calc(100% - 0px);
@@ -375,7 +372,6 @@
         height: 100vh;
         text-align: center;
         margin: 0 auto;
-
     }
 
     .home-content {
@@ -385,15 +381,25 @@
 
     }
 
-    .h-nav, .h-flex .menu-item {
+    .h-nav, .h-flex .menu-item, .h-flex a {
         height: 0px;
         visibility: hidden !important;
+    }
+
+    .h-nav, .h-nav div, .h-nav div img {
+        height: 0px;
     }
 
     .flex{
         top: 0;
     }
 
+    .m-logo img {
+        visibility: visible;
+        width: 60px;
+        height: 35px;
+        margin-bottom: 20px;
+    }
 }
 
 

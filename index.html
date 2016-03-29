@@ -56,8 +56,6 @@
 <!--Page 1-->
 <div class="wrapper">
 
-<div id="whole" class="grey-overlay">
-
 <!--------------------------------------------------------->
 <!---- Hamburger Menu ---->
 
@@ -78,6 +76,9 @@
 </div>
 
 <!--------------------------------------------------------->
+
+<div id="whole" class="grey-overlay">
+
 <header class="page-content codrops-header">
 
     <div class="cover col s12 m12 l12">
@@ -194,7 +195,7 @@
                 <!-- Button -->
                 <div id="btn-click" class="col s12 m12 l12">
 
-                        <button class="more-btn semi-round-shadow teal-overlay" href="#page2"> find out more </button>
+                        <button type="button" class="more-btn semi-round-shadow teal-overlay"> find out more </button>
                 </div>
                 <br>
             </div>
@@ -382,6 +383,16 @@
         };
     </script>
     <script src="js/wow.js"></script>
+
+    <!---------------------------------------------->
+    <!--- scrolling--->
+    <script>
+        $("button").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#page2").offset().top},
+            'slow');
+    });
+    </script>
 
 <!----------------------------------------------------------------->
 

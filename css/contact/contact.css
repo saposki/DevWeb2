@@ -29,7 +29,7 @@
 }
 
 .contact-logo{
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     height: 60px;
     width: 100px;
 }
@@ -63,7 +63,7 @@ input[type=text], input[type=password], input[type=email], input[type=url], inpu
     height: 2.7rem;
     width: 100%;
     font-size: 1rem;
-    margin: 0 0 15px 0;
+    margin: 0 0 5px 0;
     padding: 0;
     box-shadow: none;
     -webkit-box-sizing: content-box;
@@ -77,11 +77,11 @@ input[type=text], input[type=password], input[type=email], input[type=url], inpu
 }
 
 #submit-button {
-    width: 200px;
+    width: 220px;
     height: 45px;
 /*    background-color:rgba(232,122,74,.8); Orange*/
     background-color:rgba(255,0,0,0.2) !important;
-    margin-top: 40px;
+    margin-top: 30px;
     border: .5px solid #fff;
     border-radius: 1px;
 }
