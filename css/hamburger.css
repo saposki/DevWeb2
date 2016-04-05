@@ -46,7 +46,7 @@ body{
   font-family: Raleway-Regular !important;
 /*  background: #DB4C3F;*/
   background-color: #fff;
-  position: absolute;
+  position: fixed;
   text-align: center;
 }
 
