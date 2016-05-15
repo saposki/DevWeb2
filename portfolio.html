@@ -5,11 +5,38 @@
     <title>PORTFOLIO::MSDevShop</title>
 
     <!--Stylesheets-->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="/css/fonts.css" >
-    <link rel="stylesheet" href="css/portfolio_edited.css">
-    <link rel="stylesheet" href="/css/custom_styles.css">
-    <link rel="stylesheet" href="css/portfolio_divs.css">
+
+
+    <link rel="icon" href="img/logo-dark.png">
+    <link rel="stylesheet" type="text/css" href="slider/vegas.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" >
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <link rel="stylesheet" type="text/css" href="css/behaviour.css" >
+    <link rel="stylesheet" href="css/custom_styles.css">
+    <link rel="stylesheet" href="css/home/main.css">
+    <link rel="stylesheet" href="css/home/responsive-home.css">
+    <link rel="stylesheet" href="css/responsive-menu.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+
+    <!--Scripts -->
+    <script src="styles/buttons/js/modernizr.custom.js"></script>
+    <script src="js/webcomponents.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/mcust.js"></script>
+    <script src="js/toucheffects.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/modernizr.custom (copy).js"></script>
+    <script src="js/require.js"></script>
+    <script src="js/custom.js"></script>
+    <link rel="stylesheet" href="portfolio/css/normalize.css" />
+    <link rel="stylesheet" href="portfolio/css/fonts.css" >
+    <link rel="stylesheet" href="portfolio/css/portfolio_edited.css">
+    <link rel="stylesheet" href="portfolio/css/custom_styles.css">
+    <link rel="stylesheet" href="portfolio/css/portfolio_divs.css">
+
     <link rel="stylesheet" href="css/materialize.css" />
     <link rel="stylesheet" href="css/demo.css" />
     <link rel="stylesheet" href="css/component.css" />
@@ -25,6 +52,20 @@
     <script src="/js/mcust.js"></script>
     <script src="/js/toucheffects.js"></script>
     <script src="/js/wow.js"></script>
+
+
+    <script>
+
+    jQuery(document).ready(function ($) {
+    $(window).load(function () {
+        setTimeout(function(){
+            $('.se-pre').fadeOut('slow', function () {
+            });
+        },1000);
+
+    });
+});
+    </script>
 </head>
 
 <!----------------------------------------------------------------->
@@ -37,13 +78,15 @@
            <button class="cross">&#735</button>
         </header>
 
-        <div class="menu ">
-           <ul>
-              <li><a href="/index.html" class="H">HOME</a></li>
-              <li><a href="portfolio.html" class="P">PORTFOLIO</a></li>
-              <li><a href="/team.html" class="T">TEAM</a></li>
-              <li><a href="/contact.html" class="C">CONTACT US</a></li>
-           </ul>
+        <div class="col s0 m2 l2 v-nav">
+           <div class="flex center-h">
+             <ul>
+                <li><a href="index.html" class="H">HOME</a></li>
+                <li><a href="portfolio.html" class="P">PORTFOLIO</a></li>
+                <li><a href="team.html" class="T">TEAM</a></li>
+                <li><a href="contact.html" class="C">CONTACT US</a></li>
+             </ul>
+           </div>
         </div>
     </div>
 
@@ -165,10 +208,13 @@
                     <!------------------------->
                     <!-- iHub -->
                     <div class="con_pres accelerate">
+
+
                         <div class="con_pres_img">
                             <div id="ihub" class="text_on_image">
                                 <p class="center-c">I</p>
-        <!--                        <img src="img/fi.png">-->
+                               <img src="img/fi.png">
+
                             </div>
                             <!--<div class="overlay"></div> -->
                         </div>
@@ -179,7 +225,21 @@
                                 <span class="pres title">Ihub</span>
 
                                 <span class="text regular">
-                                    <br>The iHub is premier hub in Africa providing resources to budding enterpreneurs in the Technology ecosystem to ensure their success..
+                                   <p class="dummy-text">
+                                  The iHub is premier hub in Africa providing resources to budding enterpreneurs in the Technology ecosystem to ensure their success.
+
+                                  It does this by providing:
+
+                                  - Office space
+                                  - High performance computing resources
+                                  - UX and UI
+                                  - Market research
+                                  and much more.
+
+                                  Chencha Jacob, one of our developers built the backend that powers the web services offered by the iHub.
+
+                                  </p>
+                                    <!-- <br>The iHub is premier hub in Africa providing resources to budding enterpreneurs in the Technology ecosystem to ensure their success.. -->
                                 </span>
                             </div>
                         </div>
@@ -191,6 +251,7 @@
                                 <div class="con_pres_img">
                                     <div id="recruit" class="text_on_image">
                                         <p class="center-c">L</p>
+                                        <img src="img/qfilemanager.png">
                                     </div>
                                     <!--<div class="overlay"></div> -->
                                 </div>
@@ -201,7 +262,12 @@
                                         <span class="pres title">Laikiana</span>
 
                                         <span class="text regular">
-                                            <br>An easy way to recruit, The app sieves through a large database of job applications and returns the most relevant.
+                                           <p class="dummy-text">
+                                              This Application is written in php, HTML5 and Bootstrap. It's futures are: Job posting,
+                                               Job application views, Job applicants filter based on different criteria, CV pool , custom mailing system.
+                                            </p>
+
+                                            <!-- <br>An easy way to recruit, The app sieves through a large database of job applications and returns the most relevant. -->
                                         </span>
                                     </div>
                                     <br>
@@ -220,6 +286,7 @@
                                 <div id="hire-zippy" class="con_pres_img">
                                     <div class="text_on_image">
                                         <p class="center-c">H</p>
+                                        <img src="img/hirezippy_screen.png">
                                     </div>
                                     <!--<div class="overlay"></div> -->
                                 </div>
@@ -228,13 +295,18 @@
                                     <!--Brief Project Description-->
                                     <div id="hirezippy-text" class="con_pres_text_left col s12 m12 l12">
                                         <span class="pres title">Hire Zippy</span>
-
                                         <span class="text regular">
-                                            <br>Personalize your job and talent search.
-                Let Hirezippy help you in your quest by honing in on the job of your dreams from all the noise in the market
+                                           <p class="dummy-text">
+                                               Hirezippy is in the forefront bridging the chasm between developers and with great talent and employers building the next generation of products and services.
+                                               The platform provides powerful custom search engine that can scan across multiple parameters in location, interest, fitness and availability.
+                                               It then provides a simple in app messaging system for users to communicate and make the deal.
+                                               <br>
+                                               <br>
+                                               In addition to all this it sports an intelligent matching system that dramatically reduces time to hire by alerting developers and employers of interesting prospects.
+                                               Jobs are sourced from employers posting them directly and from selected partners verified to have quality jobs.
+                                           </p>
                                         </span>
                                     </div>
-                                    <br>
                                 </div>
                             </div>
 
@@ -244,6 +316,7 @@
                                 <div id="inside-out" class="con_pres_img">
                                     <div class="text_on_image">
                                         <p class="center-c">I</p>
+                                        <img src="img/insideout.png">
                                     </div>
                                     <!--<div class="overlay"></div> -->
                                 </div>
@@ -254,7 +327,16 @@
                                         <span class="pres title">Inside Out</span>
 
                                         <span class="text regular">
-                                            <br>A mock landing page created for the animated movie Inside Out.
+                                            <!-- <br>A mock landing page created for the animated movie Inside Out. -->
+                                            <br>
+                                            <p class="dummy-text">Inside Out is a major animated film that was released in mid-2015.</p>
+                                                <!-- <br> -->
+                                            <p>
+                                               This is the developer's interpretation of how the landing page would
+                                               best capture the essence of the movie. Wanjugu's main focus was color, shapes and motion;
+                                               she incorporated both of these element to bring life and vitality to the site.
+
+                                            </p>
                                         </span>
                                     </div>
                                     <br>
@@ -270,13 +352,13 @@
             <!--pop-ups-->
             <div class="content">
                 <!--ihub -->
-                <div class="pop-up ihb">
+                <!-- <div class="pop-up ihb">
                     <h5 class="pop-up-title">iHub</h5>
                     <div class="dummy-img">
                         <img src="img/fi.png">
-                    </div>
+                    </div> -->
 
-                    <p class="dummy-text">
+                    <!-- <p class="dummy-text">
                     The iHub is premier hub in Africa providing resources to budding enterpreneurs in the Technology ecosystem to ensure their success.
 
                     It does this by providing:
@@ -289,25 +371,25 @@
 
                     Chencha Jacob, one of our developers built the backend that powers the web services offered by the iHub.
 
-                    </p>
+                    </p> -->
 
                 </div>
 
                 <!--------------------------->
                     <!-- Laikiana -->
-                    <div class="pop-up lkana">
-                        <h5 class="pop-up-title">Laikiana</h5>
-                        <div class="dummy-img"> <img src="img/qfilemanager.png"  height="400px">    </div>
-                        <p class="dummy-text">This Application is written in php, HTML5 and Bootstrap. It's futures are: Job posting, Job application views, Job applicants filter based on different criteria, CV pool , custom mailing system.</p>
-                    </div>
+                    <!-- <div class="pop-up lkana"> -->
+                        <!-- <h5 class="pop-up-title">Laikiana</h5> -->
+                        <!-- <div class="dummy-img"> <img src="img/qfilemanager.png"  height="400px">    </div> -->
+                        <!-- <p class="dummy-text">This Application is written in php, HTML5 and Bootstrap. It's futures are: Job posting, Job application views, Job applicants filter based on different criteria, CV pool , custom mailing system.</p> -->
+                    <!-- </div> -->
 
 
                     <!--------------------------->
                     <!--hirezippy -->
-                    <div class="pop-up hzippy">
-                        <h5 class="pop-up-title">Hirezippy</h5>
-                        <div class="dummy-img"><img src="img/hirezippy_screen.png">    </div>
-                        <p class="dummy-text">
+                    <!-- <div class="pop-up hzippy"> -->
+                        <!-- <h5 class="pop-up-title">Hirezippy</h5> -->
+                        <!-- <div class="dummy-img"><img src="img/hirezippy_screen.png">    </div> -->
+                        <!-- <p class="dummy-text">
                             Hirezippy is in the forefront bridging the chasm between developers and with great talent and employers building the next generation of products and services.
                             The platform provides powerful custom search engine that can scan across multiple parameters in location, interest, fitness and availability.
                             It then provides a simple in app messaging system for users to communicate and make the deal.
@@ -315,20 +397,20 @@
                             <br>
                             In addition to all this it sports an intelligent matching system that dramatically reduces time to hire by alerting developers and employers of interesting prospects.
                             Jobs are sourced from employers posting them directly and from selected partners verified to have quality jobs.
-                        </p>
+                        </p> -->
 
                     </div>
 
                     <!--------------------------->
                     <!-- Inside Out -->
-                    <div class="pop-up inout">
-                        <h5 class="pop-up-title">Inside Out</h5>
-                        <div class="dummy-img"><img src="img/insideout.png" height="400px">    </div>
-                        <p class="dummy-text">Inside Out is a major animated film that was released in mid-2015.
-                            <br>
-                            <br>
-                            This is the developer’s interpretation of how the landing page would best capture the essence of the movie. Wanjugu’s main focus was color, shapes and motion; she incorporated both of these element to bring life and vitality to the site.</p>
-                    </div>
+                    <!-- <div class="pop-up inout"> -->
+                        <!-- <h5 class="pop-up-title">Inside Out</h5> -->
+                        <!-- <div class="dummy-img"><img src="img/insideout.png" height="400px">    </div> -->
+                        <!-- <p class="dummy-text">Inside Out is a major animated film that was released in mid-2015.
+                            <br> -->
+                            <!-- <br>
+                            This is the developer’s interpretation of how the landing page would best capture the essence of the movie. Wanjugu’s main focus was color, shapes and motion; she incorporated both of these element to bring life and vitality to the site.</p> -->
+                    <!-- </div> -->
 
                 <!--------------------------->
                 <span class="loading"></span>
@@ -356,6 +438,10 @@
     <script>
         new grid3D( document.getElementById( 'grid3d' ) );
     </script>
+
+
+
+
 
 <!--
     <script>
@@ -385,6 +471,46 @@
 
 
 <!----------------------------------------------------------------->
+<div class="wrapper">
+      <!--- Footer-->
+   <div id="footer" class="row">
+       <div class="copyright col s6 m6 l6">
+           <div class="row col s12 m12 l12">
+               <div class="copy">
+                   &copy Moringa Devshop 2016
+               </div>
+           </div>
+       </div>
+
+       <div  class="social col s6 m6 l6">
+           <div class="row col s12 m12 l12">
+
+               <div class="flex-div center-v">
+                   <a href="http://on.fb.me/1UN12wa">
+                       <div><img src="img/twitter-logo-button.png"></div>
+                   </a>
+
+                   <a href="https://twitter.com/moringadevshop">
+                       <div><img src="img/fb-logo-button.png"></div>
+                   </a>
+
+                   <a href="http://bit.ly/1TZpM4S">
+                       <div><img src="img/linkedin-logo-button.png"></div>
+                   </a>
+
+                   <a href="https://www.instagram.com/moringadevshop/">
+                       <div><img src="img/instagram-logo-button.png"></div>
+                   </a>
+
+                   <a href="https://goo.gl/maps/1ftpPHEijyp">
+                       <div><img src="img/maps-logo-button.png"></div>
+                   </a>
+               </div>
+           </div>
+
+       </div>
+   </div> <!---footer end --->
+</div> <!-- wrapper end -->
 
 </body>
 </html>
